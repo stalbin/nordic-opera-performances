@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nordic Opera Performances</string>
+    <string name="cd_search_open">Search performances</string>
+    <string name="cd_search_close">Close search</string>
+    <string name="cd_about">About the app</string>
+    <string name="no_performances">No performances.</string>
+    <string name="retry">Try again</string>
+    <string name="city_placeholder">City</string>
+    <string name="cd_all_cities">All cities</string>
+    <string name="from_today">From today</string>
+    <string name="from_date">From %1$s</string>
+    <string name="date_show">Show</string>
+    <string name="date_title">Show performances from</string>
+    <string name="search_placeholder">Search performance or opera house</string>
+    <string name="cd_clear_search">Clear search</string>
+    <string name="all_houses">All opera houses</string>
+    <string name="nothing_matches">No performances match.</string>
+    <string name="show_all">Show all</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="status_sold_out">Sold out</string>
+    <string name="status_cancelled">Cancelled</string>
+    <string name="status_few_left">Few tickets left</string>
+    <string name="footer">Updated %1$s. Performances are fetched once a day from the opera houses\' websites – always check the time and venue with the opera house before buying tickets.</string>
+    <string name="unknown">unknown</string>
+    <string name="choose_houses">Choose opera houses</string>
+    <string name="none_selected_hint">Nothing selected = all opera houses are shown.</string>
+    <string name="country_se">Sweden</string>
+    <string name="country_dk">Denmark</string>
+    <string name="country_no">Norway</string>
+    <string name="country_fi">Finland</string>
+    <string name="country_fo">Faroe Islands</string>
+    <string name="season_summer">summer opera</string>
+    <string name="season_project">independent opera company</string>
+    <string name="season_district">regional opera</string>
+    <string name="none_right_now">none right now</string>
+    <string name="close">Close</string>
+    <string name="about_title">About Nordic Opera Performances</string>
+    <string name="about_text">Performances at the opera houses and summer operas of Sweden, Denmark, Norway, Finland and the Faroe Islands, gathered in one place from today onwards. Tap a performance to go to the opera house\'s ticket sales.</string>
+    <string name="house_none">no published performances</string>
+    <string name="updated">Updated %1$s</string>
+    <string name="error_no_data">Could not fetch the performances. Check your internet connection and try again.</string>
+    <string name="error_offline">No connection – showing the most recently fetched performances.</string>
+    <string name="note_premiere">Premiere</string>
+    <string name="note_period">Runs %1$s</string>
+    <string name="note_other_organizer">Other organiser</string>
+    <string name="genre_opera">Opera</string>
+    <string name="genre_operetta">Operetta</string>
+    <string name="genre_dance">Ballet/dance</string>
+    <string name="genre_musical">Musical</string>
+    <string name="genre_concert">Concert</string>
+    <string name="genre_children">Children &amp; youth</string>
+    <string name="genre_other">Other</string>
+    <string name="fmt_day">EEEE d MMMM</string>
+    <string name="fmt_day_year">EEEE d MMMM yyyy</string>
+    <string name="fmt_short">d MMM</string>
+    <string name="fmt_short_year">d MMM yyyy</string>
+    <plurals name="n_houses">
+        <item quantity="one">%d opera house</item>
+        <item quantity="other">%d opera houses</item>
+    </plurals>
+    <plurals name="n_selected">
+        <item quantity="one">%d selected</item>
+        <item quantity="other">%d selected</item>
+    </plurals>
+    <plurals name="n_performances">
+        <item quantity="one">%d performance</item>
+        <item quantity="other">%d performances</item>
+    </plurals>
+</resources>

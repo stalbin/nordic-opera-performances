@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Språk som kan väljas för appen under Inställningar → Appar → Nordic Opera → Språk (Android 13+) -->
+<locale-config xmlns:android="http://schemas.android.com/apk/res/android">
+    <locale android:name="en" />
+    <locale android:name="sv" />
+    <locale android:name="da" />
+    <locale android:name="nb" />
+    <locale android:name="nn" />
+    <locale android:name="fi" />
+    <locale android:name="is" />
+</locale-config>

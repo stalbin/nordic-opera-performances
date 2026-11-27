@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nordic Opera Performances</string>
+    <string name="cd_search_open">Sök föreställning</string>
+    <string name="cd_search_close">Stäng sökning</string>
+    <string name="cd_about">Om appen</string>
+    <string name="no_performances">Inga föreställningar.</string>
+    <string name="retry">Försök igen</string>
+    <string name="city_placeholder">Ort</string>
+    <string name="cd_all_cities">Alla orter</string>
+    <string name="from_today">Från idag</string>
+    <string name="from_date">Från %1$s</string>
+    <string name="date_show">Visa</string>
+    <string name="date_title">Visa föreställningar från</string>
+    <string name="search_placeholder">Sök föreställning eller operahus</string>
+    <string name="cd_clear_search">Rensa sökning</string>
+    <string name="all_houses">Alla operahus</string>
+    <string name="nothing_matches">Inga föreställningar matchar.</string>
+    <string name="show_all">Visa allt</string>
+    <string name="today">Idag</string>
+    <string name="tomorrow">Imorgon</string>
+    <string name="status_sold_out">Utsålt</string>
+    <string name="status_cancelled">Inställd</string>
+    <string name="status_few_left">Få biljetter kvar</string>
+    <string name="footer">Uppdaterad %1$s. Föreställningarna hämtas en gång per dygn från operahusens webbplatser – kontrollera alltid tid och plats hos operahuset innan du köper biljett.</string>
+    <string name="unknown">okänt</string>
+    <string name="choose_houses">Välj operahus</string>
+    <string name="none_selected_hint">Inga val = alla operahus visas.</string>
+    <string name="country_se">Sverige</string>
+    <string name="country_dk">Danmark</string>
+    <string name="country_no">Norge</string>
+    <string name="country_fi">Finland</string>
+    <string name="country_fo">Färöarna</string>
+    <string name="season_summer">sommaropera</string>
+    <string name="season_project">fritt operakompani</string>
+    <string name="season_district">regionopera</string>
+    <string name="none_right_now">inga just nu</string>
+    <string name="close">Stäng</string>
+    <string name="about_title">Om Nordic Opera Performances</string>
+    <string name="about_text">Föreställningar på operahus och sommaroperor i Sverige, Danmark, Norge, Finland och på Färöarna samlade på ett ställe, från idag och framåt. Tryck på en föreställning för att komma till biljettköpet hos operahuset.</string>
+    <string name="house_none">inga publicerade föreställningar</string>
+    <string name="updated">Uppdaterad %1$s</string>
+    <string name="error_no_data">Kunde inte hämta föreställningarna. Kontrollera internetanslutningen och försök igen.</string>
+    <string name="error_offline">Ingen anslutning – visar senast hämtade föreställningar.</string>
+    <string name="note_premiere">Premiär</string>
+    <string name="note_period">Spelas %1$s</string>
+    <string name="note_other_organizer">Annan arrangör</string>
+    <string name="genre_opera">Opera</string>
+    <string name="genre_operetta">Operett</string>
+    <string name="genre_dance">Balett/dans</string>
+    <string name="genre_musical">Musikal</string>
+    <string name="genre_concert">Konsert</string>
+    <string name="genre_children">Barn &amp; unga</string>
+    <string name="genre_other">Övrigt</string>
+    <string name="fmt_day">EEEE d MMMM</string>
+    <string name="fmt_day_year">EEEE d MMMM yyyy</string>
+    <string name="fmt_short">d MMM</string>
+    <string name="fmt_short_year">d MMM yyyy</string>
+    <plurals name="n_houses">
+        <item quantity="one">%d operahus</item>
+        <item quantity="other">%d operahus</item>
+    </plurals>
+    <plurals name="n_selected">
+        <item quantity="one">%d vald</item>
+        <item quantity="other">%d valda</item>
+    </plurals>
+    <plurals name="n_performances">
+        <item quantity="one">%d föreställning</item>
+        <item quantity="other">%d föreställningar</item>
+    </plurals>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nordic Opera Performances</string>
+    <string name="cd_search_open">Leita að sýningu</string>
+    <string name="cd_search_close">Loka leit</string>
+    <string name="cd_about">Um appið</string>
+    <string name="no_performances">Engar sýningar.</string>
+    <string name="retry">Reyna aftur</string>
+    <string name="city_placeholder">Staður</string>
+    <string name="cd_all_cities">Allir staðir</string>
+    <string name="from_today">Frá deginum í dag</string>
+    <string name="from_date">Frá %1$s</string>
+    <string name="date_show">Sýna</string>
+    <string name="date_title">Sýna sýningar frá</string>
+    <string name="search_placeholder">Leita að sýningu eða óperuhúsi</string>
+    <string name="cd_clear_search">Hreinsa leit</string>
+    <string name="all_houses">Öll óperuhús</string>
+    <string name="nothing_matches">Engar sýningar passa við leitina.</string>
+    <string name="show_all">Sýna allt</string>
+    <string name="today">Í dag</string>
+    <string name="tomorrow">Á morgun</string>
+    <string name="status_sold_out">Uppselt</string>
+    <string name="status_cancelled">Aflýst</string>
+    <string name="status_few_left">Fáir miðar eftir</string>
+    <string name="footer">Uppfært %1$s. Sýningarnar eru sóttar einu sinni á sólarhring af vefsíðum óperuhúsanna – athugaðu alltaf tíma og stað hjá óperuhúsinu áður en þú kaupir miða.</string>
+    <string name="unknown">óþekkt</string>
+    <string name="choose_houses">Veldu óperuhús</string>
+    <string name="none_selected_hint">Ekkert valið = öll óperuhús eru sýnd.</string>
+    <string name="country_se">Svíþjóð</string>
+    <string name="country_dk">Danmörk</string>
+    <string name="country_no">Noregur</string>
+    <string name="country_fi">Finnland</string>
+    <string name="country_fo">Færeyjar</string>
+    <string name="season_summer">sumarópera</string>
+    <string name="season_project">sjálfstæður óperuhópur</string>
+    <string name="season_district">svæðisópera</string>
+    <string name="none_right_now">engar núna</string>
+    <string name="close">Loka</string>
+    <string name="about_title">Um Nordic Opera Performances</string>
+    <string name="about_text">Sýningar óperuhúsa og sumaróperu í Svíþjóð, Danmörku, Noregi, Finnlandi og Færeyjum á einum stað, frá deginum í dag og áfram. Ýttu á sýningu til að fara í miðasölu óperuhússins.</string>
+    <string name="house_none">engar birtar sýningar</string>
+    <string name="updated">Uppfært %1$s</string>
+    <string name="error_no_data">Ekki tókst að sækja sýningarnar. Athugaðu nettenginguna og reyndu aftur.</string>
+    <string name="error_offline">Engin tenging – síðast sóttu sýningarnar eru sýndar.</string>
+    <string name="note_premiere">Frumsýning</string>
+    <string name="note_period">Sýnt %1$s</string>
+    <string name="note_other_organizer">Annar skipuleggjandi</string>
+    <string name="genre_opera">Ópera</string>
+    <string name="genre_operetta">Óperetta</string>
+    <string name="genre_dance">Ballett/dans</string>
+    <string name="genre_musical">Söngleikur</string>
+    <string name="genre_concert">Tónleikar</string>
+    <string name="genre_children">Börn og ungmenni</string>
+    <string name="genre_other">Annað</string>
+    <string name="fmt_day">EEEE d. MMMM</string>
+    <string name="fmt_day_year">EEEE d. MMMM yyyy</string>
+    <string name="fmt_short">d. MMM</string>
+    <string name="fmt_short_year">d. MMM yyyy</string>
+    <plurals name="n_houses">
+        <item quantity="one">%d óperuhús</item>
+        <item quantity="other">%d óperuhús</item>
+    </plurals>
+    <plurals name="n_selected">
+        <item quantity="one">%d valið</item>
+        <item quantity="other">%d valin</item>
+    </plurals>
+    <plurals name="n_performances">
+        <item quantity="one">%d sýning</item>
+        <item quantity="other">%d sýningar</item>
+    </plurals>
+</resources>

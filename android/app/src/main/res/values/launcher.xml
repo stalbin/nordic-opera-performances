@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Kort namn under ikonen på hemskärmen (hela namnet får inte plats där). Butiksnamnet sätts i Play Console. -->
+    <string name="launcher_name" translatable="false">Nordic Opera</string>
+</resources>

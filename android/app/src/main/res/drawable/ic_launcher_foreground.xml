@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Enkel ikon: en scen med ridåer och en spotlight. 108x108 dp med säker zon i mitten. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- ridåstång -->
+    <path android:fillColor="#E8C27A" android:pathData="M30,34h48v4h-48z" />
+    <!-- vänster ridå -->
+    <path android:fillColor="#F4E9DC"
+        android:pathData="M30,38h14c-1,10 -6,18 -14,24z" />
+    <!-- höger ridå -->
+    <path android:fillColor="#F4E9DC"
+        android:pathData="M78,38h-14c1,10 6,18 14,24z" />
+    <!-- spotlight -->
+    <path android:fillColor="#E8C27A" android:fillAlpha="0.55"
+        android:pathData="M50,38h8l8,34h-24z" />
+    <!-- scengolv -->
+    <path android:fillColor="#E8C27A" android:pathData="M28,72h52v4h-52z" />
+</vector>

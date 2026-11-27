@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nordic Opera Performances</string>
+    <string name="cd_search_open">Hae esitystä</string>
+    <string name="cd_search_close">Sulje haku</string>
+    <string name="cd_about">Tietoa sovelluksesta</string>
+    <string name="no_performances">Ei esityksiä.</string>
+    <string name="retry">Yritä uudelleen</string>
+    <string name="city_placeholder">Paikkakunta</string>
+    <string name="cd_all_cities">Kaikki paikkakunnat</string>
+    <string name="from_today">Tästä päivästä</string>
+    <string name="from_date">Alkaen %1$s</string>
+    <string name="date_show">Näytä</string>
+    <string name="date_title">Näytä esitykset alkaen</string>
+    <string name="search_placeholder">Hae esitystä tai oopperataloa</string>
+    <string name="cd_clear_search">Tyhjennä haku</string>
+    <string name="all_houses">Kaikki oopperatalot</string>
+    <string name="nothing_matches">Hakua vastaavia esityksiä ei löytynyt.</string>
+    <string name="show_all">Näytä kaikki</string>
+    <string name="today">Tänään</string>
+    <string name="tomorrow">Huomenna</string>
+    <string name="status_sold_out">Loppuunmyyty</string>
+    <string name="status_cancelled">Peruttu</string>
+    <string name="status_few_left">Vain muutama lippu jäljellä</string>
+    <string name="footer">Päivitetty %1$s. Esitykset haetaan kerran vuorokaudessa oopperatalojen verkkosivuilta – tarkista aina aika ja paikka oopperatalolta ennen lipun ostamista.</string>
+    <string name="unknown">tuntematon</string>
+    <string name="choose_houses">Valitse oopperatalot</string>
+    <string name="none_selected_hint">Ei valintoja = kaikki oopperatalot näytetään.</string>
+    <string name="country_se">Ruotsi</string>
+    <string name="country_dk">Tanska</string>
+    <string name="country_no">Norja</string>
+    <string name="country_fi">Suomi</string>
+    <string name="country_fo">Färsaaret</string>
+    <string name="season_summer">kesäooppera</string>
+    <string name="season_project">vapaa oopperaryhmä</string>
+    <string name="season_district">alueooppera</string>
+    <string name="none_right_now">ei juuri nyt</string>
+    <string name="close">Sulje</string>
+    <string name="about_title">Tietoa: Nordic Opera Performances</string>
+    <string name="about_text">Ruotsin, Tanskan, Norjan, Suomen ja Färsaarten oopperatalojen ja kesäoopperoiden esitykset koottuna yhteen paikkaan tästä päivästä eteenpäin. Napauta esitystä siirtyäksesi oopperatalon lipunmyyntiin.</string>
+    <string name="house_none">ei julkaistuja esityksiä</string>
+    <string name="updated">Päivitetty %1$s</string>
+    <string name="error_no_data">Esityksiä ei voitu hakea. Tarkista internetyhteys ja yritä uudelleen.</string>
+    <string name="error_offline">Ei yhteyttä – näytetään viimeksi haetut esitykset.</string>
+    <string name="note_premiere">Ensi-ilta</string>
+    <string name="note_period">Esitetään %1$s</string>
+    <string name="note_other_organizer">Muu järjestäjä</string>
+    <string name="genre_opera">Ooppera</string>
+    <string name="genre_operetta">Operetti</string>
+    <string name="genre_dance">Baletti/tanssi</string>
+    <string name="genre_musical">Musikaali</string>
+    <string name="genre_concert">Konsertti</string>
+    <string name="genre_children">Lapset ja nuoret</string>
+    <string name="genre_other">Muut</string>
+    <string name="fmt_day">cccc d. MMMM</string>
+    <string name="fmt_day_year">cccc d. MMMM yyyy</string>
+    <string name="fmt_short">d. MMM</string>
+    <string name="fmt_short_year">d. MMM yyyy</string>
+    <plurals name="n_houses">
+        <item quantity="one">%d oopperatalo</item>
+        <item quantity="other">%d oopperataloa</item>
+    </plurals>
+    <plurals name="n_selected">
+        <item quantity="one">%d valittu</item>
+        <item quantity="other">%d valittu</item>
+    </plurals>
+    <plurals name="n_performances">
+        <item quantity="one">%d esitys</item>
+        <item quantity="other">%d esitystä</item>
+    </plurals>
+</resources>

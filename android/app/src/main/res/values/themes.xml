@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Själva utseendet sätts i Compose (ui/Theme.kt); detta är bara fönstret innan appen ritats. -->
+    <style name="Theme.Operaappen" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/bakgrund</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <color name="bakgrund">#FBF7F2</color>
+    <color name="bakgrund_mork">#1A1416</color>
+    <color name="ikon_bakgrund">#6B1D2A</color>
+</resources>
