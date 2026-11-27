@@ -37,7 +37,7 @@
     <string name="none_right_now">inga just nu</string>
     <string name="close">Stäng</string>
     <string name="about_title">Om Nordic Opera Performances</string>
-    <string name="about_text">Föreställningar på operahus och sommaroperor i Sverige, Danmark, Norge, Finland och på Färöarna samlade på ett ställe, från idag och framåt. Tryck på en föreställning för att komma till biljettköpet hos operahuset.</string>
+    <string name="about_text">Föreställningar på operahus och sommaroperor i Sverige, Danmark, Norge, Finland och på Färöarna samlade på ett ställe, från idag och framåt. Tryck på en föreställning för att läsa mer på operahusets egen sida.</string>
     <string name="house_none">inga publicerade föreställningar</string>
     <string name="updated">Uppdaterad %1$s</string>
     <string name="error_no_data">Kunde inte hämta föreställningarna. Kontrollera internetanslutningen och försök igen.</string>
@@ -52,6 +52,8 @@
     <string name="genre_concert">Konsert</string>
     <string name="genre_children">Barn &amp; unga</string>
     <string name="genre_other">Övrigt</string>
+    <string name="tap_for_info">Tryck för mer information</string>
+    <string name="tickets">Biljetter</string>
     <string name="fmt_day">EEEE d MMMM</string>
     <string name="fmt_day_year">EEEE d MMMM yyyy</string>
     <string name="fmt_short">d MMM</string>

@@ -125,8 +125,12 @@ fun OperaScreen(vm: OperaViewModel) {
 
     val lang = currentLocale().language
 
-    fun open(p: Performance) {
-        val link = p.ticketUrl.ifBlank { p.urlFor(lang) }.ifBlank { state.schedule?.houseById?.get(p.houseId)?.web.orEmpty() }
+    // Tryck på kortet: föreställningens egen sida hos operahuset (info), annars biljettsidan, annars husets webbplats.
+    // Biljettknappen: biljettsidan i första hand.
+    fun open(p: Performance, tickets: Boolean) {
+        val info = p.urlFor(lang)
+        val web = state.schedule?.houseById?.get(p.houseId)?.web.orEmpty()
+        val link = if (tickets) p.ticketUrl.ifBlank { info }.ifBlank { web } else info.ifBlank { p.ticketUrl }.ifBlank { web }
         if (link.isBlank()) return
         try {
             context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(link)))
@@ -379,7 +383,7 @@ private fun PerformanceList(
     listState: androidx.compose.foundation.lazy.LazyListState,
     hasFilters: Boolean,
     onClear: () -> Unit,
-    onOpen: (Performance) -> Unit,
+    onOpen: (Performance, Boolean) -> Unit,
 ) {
     LaunchedEffect(listStateKey) { listState.scrollToItem(0) }
     val byDay = remember(perfs) { perfs.groupBy { it.date } }
@@ -425,7 +429,7 @@ private fun DayHeader(day: LocalDate, today: LocalDate) {
 }
 
 @Composable
-private fun PerformanceCard(p: Performance, house: House?, lang: String, onOpen: (Performance) -> Unit) {
+private fun PerformanceCard(p: Performance, house: House?, lang: String, onOpen: (Performance, Boolean) -> Unit) {
     val dimmed = p.status == "installt"
     val title = p.titleFor(lang)
     val venue = p.venueFor(lang)
@@ -433,7 +437,7 @@ private fun PerformanceCard(p: Performance, house: House?, lang: String, onOpen:
         modifier = Modifier
             .fillMaxWidth()
             .padding(horizontal = 12.dp, vertical = 4.dp)
-            .clickable { onOpen(p) },
+            .clickable { onOpen(p, false) },
     ) {
         Row(Modifier.padding(horizontal = 14.dp, vertical = 10.dp), verticalAlignment = Alignment.Top) {
             Text(
@@ -468,6 +472,19 @@ private fun PerformanceCard(p: Performance, house: House?, lang: String, onOpen:
                         "utsalt" -> Tag(stringResource(R.string.status_sold_out), MaterialTheme.colorScheme.surfaceVariant, MaterialTheme.colorScheme.onSurfaceVariant)
                         "installt" -> Tag(stringResource(R.string.status_cancelled), MaterialTheme.colorScheme.errorContainer, MaterialTheme.colorScheme.onErrorContainer)
                         "fa-biljetter" -> Tag(stringResource(R.string.status_few_left), MaterialTheme.colorScheme.tertiaryContainer, MaterialTheme.colorScheme.onTertiaryContainer)
+                    }
+                }
+                Spacer(Modifier.height(4.dp))
+                Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+                    Text(
+                        stringResource(R.string.tap_for_info) + " ›",
+                        modifier = Modifier.weight(1f),
+                        style = MaterialTheme.typography.labelMedium,
+                        color = MaterialTheme.colorScheme.primary,
+                    )
+                    val info = p.urlFor(lang)
+                    if (p.ticketUrl.isNotBlank() && p.ticketUrl != info && p.status != "installt" && p.status != "utsalt") {
+                        TextButton(onClick = { onOpen(p, true) }) { Text(stringResource(R.string.tickets)) }
                     }
                 }
             }

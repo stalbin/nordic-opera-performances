@@ -37,7 +37,7 @@
     <string name="none_right_now">none right now</string>
     <string name="close">Close</string>
     <string name="about_title">About Nordic Opera Performances</string>
-    <string name="about_text">Performances at the opera houses and summer operas of Sweden, Denmark, Norway, Finland and the Faroe Islands, gathered in one place from today onwards. Tap a performance to go to the opera house\'s ticket sales.</string>
+    <string name="about_text">Performances at the opera houses and summer operas of Sweden, Denmark, Norway, Finland and the Faroe Islands, gathered in one place from today onwards. Tap a performance to read more on the opera house\'s own page.</string>
     <string name="house_none">no published performances</string>
     <string name="updated">Updated %1$s</string>
     <string name="error_no_data">Could not fetch the performances. Check your internet connection and try again.</string>
@@ -52,6 +52,8 @@
     <string name="genre_concert">Concert</string>
     <string name="genre_children">Children &amp; youth</string>
     <string name="genre_other">Other</string>
+    <string name="tap_for_info">Tap for more information</string>
+    <string name="tickets">Tickets</string>
     <string name="fmt_day">EEEE d MMMM</string>
     <string name="fmt_day_year">EEEE d MMMM yyyy</string>
     <string name="fmt_short">d MMM</string>

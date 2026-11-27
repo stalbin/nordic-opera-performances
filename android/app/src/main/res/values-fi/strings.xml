@@ -37,7 +37,7 @@
     <string name="none_right_now">ei juuri nyt</string>
     <string name="close">Sulje</string>
     <string name="about_title">Tietoa: Nordic Opera Performances</string>
-    <string name="about_text">Ruotsin, Tanskan, Norjan, Suomen ja Färsaarten oopperatalojen ja kesäoopperoiden esitykset koottuna yhteen paikkaan tästä päivästä eteenpäin. Napauta esitystä siirtyäksesi oopperatalon lipunmyyntiin.</string>
+    <string name="about_text">Ruotsin, Tanskan, Norjan, Suomen ja Färsaarten oopperatalojen ja kesäoopperoiden esitykset koottuna yhteen paikkaan tästä päivästä eteenpäin. Napauta esitystä lukeaksesi lisää oopperatalon omalta sivulta.</string>
     <string name="house_none">ei julkaistuja esityksiä</string>
     <string name="updated">Päivitetty %1$s</string>
     <string name="error_no_data">Esityksiä ei voitu hakea. Tarkista internetyhteys ja yritä uudelleen.</string>
@@ -52,6 +52,8 @@
     <string name="genre_concert">Konsertti</string>
     <string name="genre_children">Lapset ja nuoret</string>
     <string name="genre_other">Muut</string>
+    <string name="tap_for_info">Napauta saadaksesi lisätietoja</string>
+    <string name="tickets">Liput</string>
     <string name="fmt_day">cccc d. MMMM</string>
     <string name="fmt_day_year">cccc d. MMMM yyyy</string>
     <string name="fmt_short">d. MMM</string>

@@ -436,3 +436,14 @@ if __name__ == "__main__":
         if name.startswith("test_"):
             fn()
             print("OK", name)
+
+
+def test_folkoperan_production_match():
+    from sources import folkoperan as fo
+    html = ('<a href="/uppsattningar/falstaff/"><h3>Falstaff</h3><p>Verdi</p></a>'
+            '<a href="https://folkoperan.se/uppsattningar/nyarsgala/">Nyårsgala 2026</a>'
+            '<a href="/uppsattningar/">Alla</a>')
+    pages = fo.production_pages(html)
+    assert fo.match_page("Falstaff", pages) == "https://folkoperan.se/uppsattningar/falstaff/"
+    assert fo.match_page("Nyårsgala", pages) == "https://folkoperan.se/uppsattningar/nyarsgala/"
+    assert fo.match_page("Något helt annat", pages) == ""

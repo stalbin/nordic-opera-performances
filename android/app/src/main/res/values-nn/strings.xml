@@ -37,7 +37,7 @@
     <string name="none_right_now">ingen akkurat no</string>
     <string name="close">Lukk</string>
     <string name="about_title">Om Nordic Opera Performances</string>
-    <string name="about_text">Framsyningar ved operahus og sommaroperaer i Sverige, Danmark, Noreg, Finland og på Færøyane samla på éin stad, frå i dag og framover. Trykk på ei framsyning for å kome til billettkjøpet hos operahuset.</string>
+    <string name="about_text">Framsyningar ved operahus og sommaroperaer i Sverige, Danmark, Noreg, Finland og på Færøyane samla på éin stad, frå i dag og framover. Trykk på ei framsyning for å lese meir på operahuset si eiga side.</string>
     <string name="house_none">ingen publiserte framsyningar</string>
     <string name="updated">Oppdatert %1$s</string>
     <string name="error_no_data">Klarte ikkje å hente framsyningane. Sjekk internettsambandet og prøv igjen.</string>
@@ -52,6 +52,8 @@
     <string name="genre_concert">Konsert</string>
     <string name="genre_children">Born og unge</string>
     <string name="genre_other">Anna</string>
+    <string name="tap_for_info">Trykk for meir informasjon</string>
+    <string name="tickets">Billettar</string>
     <string name="fmt_day">EEEE d. MMMM</string>
     <string name="fmt_day_year">EEEE d. MMMM yyyy</string>
     <string name="fmt_short">d. MMM</string>

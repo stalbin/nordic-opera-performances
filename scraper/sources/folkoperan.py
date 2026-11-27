@@ -18,7 +18,48 @@ _NOTE_RE = re.compile(r"\s+(PREMIÄR|URPREMIÄR|SVENSK PREMIÄR|SISTA FÖRESTÄL
 
 
 def fetch() -> list[Performance]:
-    return parse(get_text(LIST_URL))
+    perfs = parse(get_text(LIST_URL))
+    try:
+        pages = production_pages(get_text(BASE + "/"))
+    except Exception:
+        pages = {}
+    for p in perfs:
+        p.url = match_page(p.title, pages) or LIST_URL
+    return perfs
+
+
+def _norm(s: str) -> str:
+    return re.sub(r"[^a-zåäö0-9]+", " ", s.lower()).strip()
+
+
+def production_pages(html: str) -> dict[str, str]:
+    """Uppsättningssidor (/uppsattningar/<namn>/) med sin länktext."""
+    soup = BeautifulSoup(html, "lxml")
+    out: dict[str, str] = {}
+    for a in soup.select('a[href*="/uppsattningar/"]'):
+        href = a["href"]
+        if href.startswith("/"):
+            href = BASE + href
+        if not re.search(r"/uppsattningar/[^/]+/?$", href):
+            continue
+        txt = _norm(a.get_text(" "))
+        if txt:
+            out.setdefault(txt, href)
+        slug = re.search(r"/uppsattningar/([^/]+)", href).group(1)
+        out.setdefault(_norm(slug.replace("-", " ")), href)
+    return out
+
+
+def match_page(title: str, pages: dict[str, str]) -> str:
+    t = _norm(title)
+    if not t:
+        return ""
+    if t in pages:
+        return pages[t]
+    for txt, href in pages.items():
+        if len(txt) >= 4 and (txt.startswith(t) or t.startswith(txt) or f" {t} " in f" {txt} "):
+            return href
+    return ""
 
 
 def _genre(title: str) -> str:

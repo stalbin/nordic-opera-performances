@@ -37,7 +37,7 @@
     <string name="none_right_now">engar núna</string>
     <string name="close">Loka</string>
     <string name="about_title">Um Nordic Opera Performances</string>
-    <string name="about_text">Sýningar óperuhúsa og sumaróperu í Svíþjóð, Danmörku, Noregi, Finnlandi og Færeyjum á einum stað, frá deginum í dag og áfram. Ýttu á sýningu til að fara í miðasölu óperuhússins.</string>
+    <string name="about_text">Sýningar óperuhúsa og sumaróperu í Svíþjóð, Danmörku, Noregi, Finnlandi og Færeyjum á einum stað, frá deginum í dag og áfram. Ýttu á sýningu til að lesa meira á síðu óperuhússins.</string>
     <string name="house_none">engar birtar sýningar</string>
     <string name="updated">Uppfært %1$s</string>
     <string name="error_no_data">Ekki tókst að sækja sýningarnar. Athugaðu nettenginguna og reyndu aftur.</string>
@@ -52,6 +52,8 @@
     <string name="genre_concert">Tónleikar</string>
     <string name="genre_children">Börn og ungmenni</string>
     <string name="genre_other">Annað</string>
+    <string name="tap_for_info">Ýttu til að fá nánari upplýsingar</string>
+    <string name="tickets">Miðar</string>
     <string name="fmt_day">EEEE d. MMMM</string>
     <string name="fmt_day_year">EEEE d. MMMM yyyy</string>
     <string name="fmt_short">d. MMM</string>
