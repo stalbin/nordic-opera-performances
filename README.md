@@ -37,7 +37,6 @@ operahusens webbplatser ──(varje natt, GitHub Actions)──▶ data/foresta
 | Finlands nationalopera och -balett, Helsingfors | Operans eget kalender-API (titlar på svenska) |
 | Savonlinna Opera Festival, Nyslott | Varje produktionssida ("Perjantai 9.7.2027 klo 19:00") |
 | Tampereen Ooppera | Tampere-talos sida för operan + varje evenemangssida |
-| Vaasan Ooppera | Produktionssidorna på vaasanooppera.fi |
 | Opera i Uleåborg | Oulu Sinfonias konsertsidor som handlar om opera |
 | Ilmajoki Music Festival | Produktionssidorna ("Pe 11.6. klo 18") |
 | Helsinki Contemporary Opera Festival | Programsidorna på oopperakesa.fi |
