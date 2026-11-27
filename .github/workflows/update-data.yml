@@ -1,0 +1,47 @@
+name: Hämta föreställningar
+
+on:
+  schedule:
+    - cron: "17 3 * * *"   # varje natt kl. 04:17 svensk vintertid (05:17 sommartid)
+  workflow_dispatch: {}      # kan också köras för hand under fliken Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scraper/requirements.txt
+
+      - name: Installera beroenden
+        run: pip install -r scraper/requirements.txt pytest
+
+      - name: Testa tolkningen
+        run: python -m pytest -q scraper/tests
+
+      - name: Hämta från operahusen
+        run: python scraper/run.py
+
+      - name: Spara om något ändrats
+        run: |
+          git config user.name "operaappen-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/forestallningar.json
+          if git diff --cached --quiet; then
+            echo "Inga ändringar."
+          else
+            git commit -m "Uppdatera föreställningar $(date -u +%F)"
+            git push
+          fi
