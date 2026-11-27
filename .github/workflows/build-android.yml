@@ -1,0 +1,61 @@
+name: Bygg Android-appen
+
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: ["android/**", ".github/workflows/build-android.yml"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: android
+    env:
+      VERSION_CODE: ${{ github.run_number }}
+      ORG_GRADLE_PROJECT_operaDataUrl: ${{ vars.OPERA_DATA_URL || format('https://raw.githubusercontent.com/{0}/main/data/forestallningar.json', github.repository) }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Gör gradlew körbar
+        run: chmod +x gradlew
+
+      - name: Läs in signeringsnyckel (om den finns)
+        env:
+          KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
+        run: |
+          if [ -n "$KEYSTORE_BASE64" ]; then
+            echo "$KEYSTORE_BASE64" | base64 -d > "$RUNNER_TEMP/upload.jks"
+            echo "KEYSTORE_FILE=$RUNNER_TEMP/upload.jks" >> "$GITHUB_ENV"
+          fi
+
+      - name: Bygg testversion (APK)
+        run: ./gradlew --no-daemon assembleDebug
+
+      - name: Bygg Play-version (AAB)
+        if: env.KEYSTORE_FILE != ''
+        env:
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+        run: ./gradlew --no-daemon bundleRelease
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nordic-opera-debug-apk
+          path: android/app/build/outputs/apk/debug/*.apk
+
+      - uses: actions/upload-artifact@v4
+        if: env.KEYSTORE_FILE != ''
+        with:
+          name: nordic-opera-play-aab
+          path: android/app/build/outputs/bundle/release/*.aab
