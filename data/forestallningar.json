@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-11-27T17:36:47+01:00",
+ "generated": "2026-11-27T18:28:31+01:00",
  "houses": [
   {
    "id": "kungliga-operan",
@@ -64,7 +64,7 @@
    "country": "SE",
    "web": "https://www.wermlandopera.com",
    "season": "året runt",
-   "count": 77,
+   "count": 76,
    "status": "ok",
    "error": ""
   },
@@ -278,17 +278,6 @@
    "error": ""
   },
   {
-   "id": "vaasan-ooppera",
-   "name": "Vaasan Ooppera",
-   "city": "Vasa",
-   "country": "FI",
-   "web": "https://www.vaasanooppera.fi",
-   "season": "distrikt",
-   "count": 0,
-   "status": "gammal-data",
-   "error": "ConnectionError: HTTPSConnectionPool(host='www.vaasanooppera.fi', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.vaasanooppera.fi', port=443): Failed to resolve 'www.vaasanooppera.fi' ([Errno -2] Name or service not known)\"))"
-  },
-  {
    "id": "oulun-ooppera",
    "name": "Opera i Uleåborg (Oulu Sinfonia)",
    "city": "Uleåborg",
@@ -317,7 +306,7 @@
    "country": "FI",
    "web": "https://www.musiikkijuhlat.fi",
    "season": "sommar",
-   "count": 97,
+   "count": 20,
    "status": "ok",
    "error": ""
   },
@@ -404,20 +393,6 @@
    "urls": {
     "sv": "https://norrlandsoperan.se/forestallningar/skolforestallning-somnjagarna/"
    }
-  },
-  {
-   "id": "wermland-opera:2026-11-27:1800:kizelo-mleko-bubblor-p-bageriet",
-   "house": "wermland-opera",
-   "title": "Kizelo Mleko – Bubblor på Bageriet",
-   "date": "2026-11-27",
-   "time": "18:00",
-   "genre": "Konsert",
-   "venue": "Bageriet",
-   "city": "Karlstad",
-   "url": "https://www.wermlandopera.com/evenemang/konsert/kizelo-mleko-bubblor-pa-bageriet/",
-   "ticketUrl": "https://secure.tickster.com/lc7njg0117cu6l9",
-   "status": "",
-   "note": ""
   },
   {
    "id": "kungliga-operan:10281",
@@ -607,7 +582,7 @@
    "city": "København",
    "url": "https://www.kglteater.dk/ballet/2627/george-balanchines-noeddeknaekkeren/",
    "ticketUrl": "https://billet.kglteater.dk/da/buyingflow/tickets/30881/86999/",
-   "status": "utsalt",
+   "status": "fa-biljetter",
    "note": "",
    "titles": {
     "da": "George Balanchines Nøddeknækkeren",
@@ -1241,7 +1216,7 @@
    "city": "Oslo",
    "url": "https://www.operaen.no/forestillinger/notteknekkeren-ballett/",
    "ticketUrl": "https://billett.operaen.no/nb/buyingflow/tickets/45790/93182/",
-   "status": "fa-biljetter",
+   "status": "utsalt",
    "note": "",
    "titles": {
     "nb": "Nøtteknekkeren",
@@ -1854,7 +1829,7 @@
    "city": "Stockholm",
    "url": "https://www.operan.se/forestallningar/operahusets-avskedskonsert",
    "ticketUrl": "https://www.operan.se/forestallningar/operahusets-avskedskonsert",
-   "status": "",
+   "status": "utsalt",
    "note": "",
    "titles": {
     "sv": "Operahusets avskedskonsert",
@@ -2008,7 +1983,7 @@
    "city": "Stockholm",
    "url": "https://www.operan.se/forestallningar/operahusets-avskedskonsert",
    "ticketUrl": "https://www.operan.se/forestallningar/operahusets-avskedskonsert",
-   "status": "",
+   "status": "utsalt",
    "note": "",
    "titles": {
     "sv": "Operahusets avskedskonsert",
@@ -2039,26 +2014,6 @@
    "urls": {
     "sv": "https://norrlandsoperan.se/forestallningar/umea-musiksallskaps-julkonsert/",
     "en": "https://norrlandsoperan.se/en/programme/umea-musiksallskaps-julkonsert/"
-   }
-  },
-  {
-   "id": "ilmajoki:2026-11-29:2359:ajankohtaista",
-   "house": "ilmajoki",
-   "title": "Ajankohtaista",
-   "date": "2026-11-29",
-   "time": "23:59",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/ajankohtaista-253848.html",
-   "ticketUrl": "https://events.liveto.io/organizers/ilmajoen-musiikkijuhlat",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Ajankohtaista"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/ajankohtaista-253848.html"
    }
   },
   {
@@ -2816,7 +2771,7 @@
    "genre": "Opera",
    "venue": "Folkoperan",
    "city": "Stockholm",
-   "url": "https://folkoperan.se/kop-biljetter/",
+   "url": "https://folkoperan.se/uppsattningar/a-christmas-carol/",
    "ticketUrl": "https://biljetter.folkoperan.se/sv/buyingflow/tickets/20226/128879/",
    "status": "",
    "note": ""
@@ -3167,7 +3122,7 @@
    "genre": "Opera",
    "venue": "Folkoperan",
    "city": "Stockholm",
-   "url": "https://folkoperan.se/kop-biljetter/",
+   "url": "https://folkoperan.se/uppsattningar/a-christmas-carol/",
    "ticketUrl": "https://biljetter.folkoperan.se/sv/buyingflow/tickets/20226/128880/",
    "status": "",
    "note": ""
@@ -3581,7 +3536,7 @@
    "genre": "Opera",
    "venue": "Folkoperan",
    "city": "Stockholm",
-   "url": "https://folkoperan.se/kop-biljetter/",
+   "url": "https://folkoperan.se/uppsattningar/a-christmas-carol/",
    "ticketUrl": "https://biljetter.folkoperan.se/sv/buyingflow/tickets/20226/128881/",
    "status": "",
    "note": ""
@@ -3987,7 +3942,7 @@
    "genre": "Opera",
    "venue": "Folkoperan",
    "city": "Stockholm",
-   "url": "https://folkoperan.se/kop-biljetter/",
+   "url": "https://folkoperan.se/uppsattningar/a-christmas-carol/",
    "ticketUrl": "https://biljetter.folkoperan.se/sv/buyingflow/tickets/20226/128882/",
    "status": "",
    "note": ""
@@ -4192,7 +4147,7 @@
    "genre": "Opera",
    "venue": "Folkoperan",
    "city": "Stockholm",
-   "url": "https://folkoperan.se/kop-biljetter/",
+   "url": "https://folkoperan.se/uppsattningar/a-christmas-carol/",
    "ticketUrl": "https://biljetter.folkoperan.se/sv/buyingflow/tickets/20226/128883/",
    "status": "",
    "note": ""
@@ -4335,7 +4290,7 @@
    "genre": "Opera",
    "venue": "Folkoperan",
    "city": "Stockholm",
-   "url": "https://folkoperan.se/kop-biljetter/",
+   "url": "https://folkoperan.se/uppsattningar/a-christmas-carol/",
    "ticketUrl": "https://biljetter.folkoperan.se/sv/buyingflow/tickets/20226/128884/",
    "status": "",
    "note": ""
@@ -4696,7 +4651,7 @@
    "genre": "Konsert",
    "venue": "Folkoperan",
    "city": "Stockholm",
-   "url": "https://folkoperan.se/kop-biljetter/",
+   "url": "https://folkoperan.se/uppsattningar/folkoperan-foaje/",
    "ticketUrl": "https://biljetter.folkoperan.se/sv/buyingflow/tickets/29150/134197/",
    "status": "",
    "note": ""
@@ -4989,7 +4944,7 @@
    "genre": "Opera",
    "venue": "Folkoperan",
    "city": "Stockholm",
-   "url": "https://folkoperan.se/kop-biljetter/",
+   "url": "https://folkoperan.se/uppsattningar/a-christmas-carol/",
    "ticketUrl": "https://biljetter.folkoperan.se/sv/buyingflow/tickets/20226/128885/",
    "status": "",
    "note": ""
@@ -5294,7 +5249,7 @@
    "genre": "Opera",
    "venue": "Folkoperan",
    "city": "Stockholm",
-   "url": "https://folkoperan.se/kop-biljetter/",
+   "url": "https://folkoperan.se/uppsattningar/a-christmas-carol/",
    "ticketUrl": "https://biljetter.folkoperan.se/sv/buyingflow/tickets/20226/128886/",
    "status": "",
    "note": ""
@@ -6811,7 +6766,7 @@
    "genre": "Konsert",
    "venue": "Folkoperan",
    "city": "Stockholm",
-   "url": "https://folkoperan.se/kop-biljetter/",
+   "url": "https://folkoperan.se/uppsattningar/folkoperan-foaje/",
    "ticketUrl": "https://biljetter.folkoperan.se/sv/buyingflow/tickets/29150/133976/",
    "status": "",
    "note": ""
@@ -8813,7 +8768,7 @@
    "genre": "Konsert",
    "venue": "Folkoperan",
    "city": "Stockholm",
-   "url": "https://folkoperan.se/kop-biljetter/",
+   "url": "https://folkoperan.se/uppsattningar/nyarsgala/",
    "ticketUrl": "https://biljetter.folkoperan.se/sv/buyingflow/tickets/20241/128780/",
    "status": "",
    "note": ""
@@ -9012,7 +8967,7 @@
    "genre": "Konsert",
    "venue": "Folkoperan",
    "city": "Stockholm",
-   "url": "https://folkoperan.se/kop-biljetter/",
+   "url": "https://folkoperan.se/uppsattningar/nyarsgala/",
    "ticketUrl": "https://biljetter.folkoperan.se/sv/buyingflow/tickets/20241/128781/",
    "status": "",
    "note": ""
@@ -9074,7 +9029,7 @@
    "genre": "Konsert",
    "venue": "Folkoperan",
    "city": "Stockholm",
-   "url": "https://folkoperan.se/kop-biljetter/",
+   "url": "https://folkoperan.se/uppsattningar/nyarsgala/",
    "ticketUrl": "https://biljetter.folkoperan.se/sv/buyingflow/tickets/20241/128782/",
    "status": "",
    "note": ""
@@ -9146,46 +9101,6 @@
    "note": ""
   },
   {
-   "id": "ilmajoki:2026-12-31::lippuinfo",
-   "house": "ilmajoki",
-   "title": "Lippuinfo",
-   "date": "2026-12-31",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/lippuinfo.html",
-   "ticketUrl": "https://events.liveto.io/organizers/ilmajoen-musiikkijuhlat",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Lippuinfo"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/lippuinfo.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2026-12-31::ryhm-t",
-   "house": "ilmajoki",
-   "title": "Ryhmät",
-   "date": "2026-12-31",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/ryhmamatka.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/ryhmamatka.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Ryhmät"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/ryhmamatka.html"
-   }
-  },
-  {
    "id": "ilmajoki:2026-12-31::s-r-ill",
    "house": "ilmajoki",
    "title": "Säröillä",
@@ -9203,46 +9118,6 @@
    },
    "urls": {
     "fi": "https://www.musiikkijuhlat.fi/saroilla.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-01-01::lippuinfo",
-   "house": "ilmajoki",
-   "title": "Lippuinfo",
-   "date": "2027-01-01",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/lippuinfo.html",
-   "ticketUrl": "https://events.liveto.io/organizers/ilmajoen-musiikkijuhlat",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Lippuinfo"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/lippuinfo.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-01-01::ryhm-t",
-   "house": "ilmajoki",
-   "title": "Ryhmät",
-   "date": "2027-01-01",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/ryhmamatka.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/ryhmamatka.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Ryhmät"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/ryhmamatka.html"
    }
   },
   {
@@ -12619,7 +12494,7 @@
    "genre": "Opera",
    "venue": "Folkoperan",
    "city": "Stockholm",
-   "url": "https://folkoperan.se/kop-biljetter/",
+   "url": "https://folkoperan.se/uppsattningar/sommarnattens-leende/",
    "ticketUrl": "https://biljetter.folkoperan.se/sv/buyingflow/tickets/30463/124752/",
    "status": "",
    "note": "premiere"
@@ -13154,7 +13029,7 @@
    "genre": "Opera",
    "venue": "Folkoperan",
    "city": "Stockholm",
-   "url": "https://folkoperan.se/kop-biljetter/",
+   "url": "https://folkoperan.se/uppsattningar/sommarnattens-leende/",
    "ticketUrl": "https://biljetter.folkoperan.se/sv/buyingflow/tickets/30463/124753/",
    "status": "",
    "note": ""
@@ -13234,7 +13109,7 @@
    "genre": "Opera",
    "venue": "Folkoperan",
    "city": "Stockholm",
-   "url": "https://folkoperan.se/kop-biljetter/",
+   "url": "https://folkoperan.se/uppsattningar/sommarnattens-leende/",
    "ticketUrl": "https://biljetter.folkoperan.se/sv/buyingflow/tickets/30463/124756/",
    "status": "",
    "note": ""
@@ -23264,7 +23139,7 @@
    "genre": "Opera",
    "venue": "Folkoperan",
    "city": "Stockholm",
-   "url": "https://folkoperan.se/kop-biljetter/",
+   "url": "https://folkoperan.se/uppsattningar/olympiaden/",
    "ticketUrl": "https://biljetter.folkoperan.se/sv/buyingflow/tickets/24012/123899/",
    "status": "",
    "note": ""
@@ -23389,7 +23264,7 @@
    "genre": "Opera",
    "venue": "Folkoperan",
    "city": "Stockholm",
-   "url": "https://folkoperan.se/kop-biljetter/",
+   "url": "https://folkoperan.se/uppsattningar/olympiaden/",
    "ticketUrl": "https://biljetter.folkoperan.se/sv/buyingflow/tickets/24012/124306/",
    "status": "",
    "note": ""
@@ -23596,7 +23471,7 @@
    "genre": "Opera",
    "venue": "Folkoperan",
    "city": "Stockholm",
-   "url": "https://folkoperan.se/kop-biljetter/",
+   "url": "https://folkoperan.se/uppsattningar/olympiaden/",
    "ticketUrl": "https://biljetter.folkoperan.se/sv/buyingflow/tickets/24012/123903/",
    "status": "",
    "note": ""
@@ -28593,7 +28468,7 @@
    "genre": "Opera",
    "venue": "Folkoperan",
    "city": "Stockholm",
-   "url": "https://folkoperan.se/kop-biljetter/",
+   "url": "https://folkoperan.se/uppsattningar/nietzsche-kontra-wagner/",
    "ticketUrl": "https://biljetter.folkoperan.se/sv/buyingflow/tickets/28109/137893/",
    "status": "",
    "note": ""
@@ -28757,7 +28632,7 @@
    "genre": "Opera",
    "venue": "Folkoperan",
    "city": "Stockholm",
-   "url": "https://folkoperan.se/kop-biljetter/",
+   "url": "https://folkoperan.se/uppsattningar/nietzsche-kontra-wagner/",
    "ticketUrl": "https://biljetter.folkoperan.se/sv/buyingflow/tickets/28109/137894/",
    "status": "",
    "note": ""
@@ -28894,7 +28769,7 @@
    "genre": "Opera",
    "venue": "Folkoperan",
    "city": "Stockholm",
-   "url": "https://folkoperan.se/kop-biljetter/",
+   "url": "https://folkoperan.se/uppsattningar/nietzsche-kontra-wagner/",
    "ticketUrl": "https://biljetter.folkoperan.se/sv/buyingflow/tickets/28109/137895/",
    "status": "",
    "note": ""
@@ -31281,66 +31156,6 @@
    }
   },
   {
-   "id": "ilmajoki:2027-06-10::ajankohtaista",
-   "house": "ilmajoki",
-   "title": "Ajankohtaista",
-   "date": "2027-06-10",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/ajankohtaista-253848.html",
-   "ticketUrl": "https://events.liveto.io/organizers/ilmajoen-musiikkijuhlat",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Ajankohtaista"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/ajankohtaista-253848.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-10::hallitus",
-   "house": "ilmajoki",
-   "title": "Hallitus",
-   "date": "2027-06-10",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/hallitus.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/hallitus.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Hallitus"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/hallitus.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-10::ilmajoen-musiikkijuhlat-ry",
-   "house": "ilmajoki",
-   "title": "Ilmajoen Musiikkijuhlat ry",
-   "date": "2027-06-10",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/yhdistys.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/yhdistys.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Ilmajoen Musiikkijuhlat ry"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/yhdistys.html"
-   }
-  },
-  {
    "id": "ilmajoki:2027-06-10::juha-tapio-ilmajoen-musiikkijuhlilla-12-",
    "house": "ilmajoki",
    "title": "Juha Tapio Ilmajoen musiikkijuhlilla 12.6.27",
@@ -31358,206 +31173,6 @@
    },
    "urls": {
     "fi": "https://www.musiikkijuhlat.fi/juhatapio.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-10::katsomo-ja-alue",
-   "house": "ilmajoki",
-   "title": "Katsomo ja alue",
-   "date": "2027-06-10",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/katsomo.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/katsomo.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Katsomo ja alue"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/katsomo.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-10::lippuinfo",
-   "house": "ilmajoki",
-   "title": "Lippuinfo",
-   "date": "2027-06-10",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/lippuinfo.html",
-   "ticketUrl": "https://events.liveto.io/organizers/ilmajoen-musiikkijuhlat",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Lippuinfo"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/lippuinfo.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-10::l-hialueen-ruokailupaikat",
-   "house": "ilmajoki",
-   "title": "Lähialueen ruokailupaikat",
-   "date": "2027-06-10",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/ruokailu-lahialueella.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/ruokailu-lahialueella.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Lähialueen ruokailupaikat"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/ruokailu-lahialueella.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-10::l-hialueen-vierailukohteet",
-   "house": "ilmajoki",
-   "title": "Lähialueen vierailukohteet",
-   "date": "2027-06-10",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/lahialueen-vierailukohteet.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/lahialueen-vierailukohteet.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Lähialueen vierailukohteet"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/lahialueen-vierailukohteet.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-10::majoitus",
-   "house": "ilmajoki",
-   "title": "Majoitus",
-   "date": "2027-06-10",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/majoitus.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/majoitus.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Majoitus"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/majoitus.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-10::media",
-   "house": "ilmajoki",
-   "title": "Media",
-   "date": "2027-06-10",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/media.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/media.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Media"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/media.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-10::ohjelmisto",
-   "house": "ilmajoki",
-   "title": "Ohjelmisto",
-   "date": "2027-06-10",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/ohjelmisto.html",
-   "ticketUrl": "https://events.liveto.io/organizers/ilmajoen-musiikkijuhlat",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Ohjelmisto"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/ohjelmisto.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-10::pieninvestointihanke",
-   "house": "ilmajoki",
-   "title": "PIENINVESTOINTIHANKE",
-   "date": "2027-06-10",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/pieninvestointihanke.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/pieninvestointihanke.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "PIENINVESTOINTIHANKE"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/pieninvestointihanke.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-10::ryhm-t",
-   "house": "ilmajoki",
-   "title": "Ryhmät",
-   "date": "2027-06-10",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/ryhmamatka.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/ryhmamatka.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Ryhmät"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/ryhmamatka.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-10::saapuminen",
-   "house": "ilmajoki",
-   "title": "Saapuminen",
-   "date": "2027-06-10",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/saapuminen.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/saapuminen.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Saapuminen"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/saapuminen.html"
    }
   },
   {
@@ -31581,26 +31196,6 @@
    }
   },
   {
-   "id": "ilmajoki:2027-06-10::turvallisuus-ja-yhdenvertaisuus",
-   "house": "ilmajoki",
-   "title": "Turvallisuus ja yhdenvertaisuus",
-   "date": "2027-06-10",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/turvallisuus-ja-yhdenvertaisuus.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/turvallisuus-ja-yhdenvertaisuus.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Turvallisuus ja yhdenvertaisuus"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/turvallisuus-ja-yhdenvertaisuus.html"
-   }
-  },
-  {
    "id": "ilmajoki:2027-06-10::unohtumattomat",
    "house": "ilmajoki",
    "title": "Unohtumattomat",
@@ -31618,146 +31213,6 @@
    },
    "urls": {
     "fi": "https://www.musiikkijuhlat.fi/unohtumattomat_aarnepelkonen_johannaiivanainen.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-10::verkkokauppa",
-   "house": "ilmajoki",
-   "title": "Verkkokauppa",
-   "date": "2027-06-10",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/musiikkijuhlatverkkokauppa.html",
-   "ticketUrl": "https://events.liveto.io/organizers/ilmajoen-musiikkijuhlat",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Verkkokauppa"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/musiikkijuhlatverkkokauppa.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-10::visit-ilmajoki",
-   "house": "ilmajoki",
-   "title": "Visit Ilmajoki",
-   "date": "2027-06-10",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/visit-ilmajoki.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/visit-ilmajoki.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Visit Ilmajoki"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/visit-ilmajoki.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-10::vuokraustoiminta",
-   "house": "ilmajoki",
-   "title": "Vuokraustoiminta",
-   "date": "2027-06-10",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/vuokraustoiminta.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/vuokraustoiminta.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Vuokraustoiminta"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/vuokraustoiminta.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-10::v-liaikatarjoilut",
-   "house": "ilmajoki",
-   "title": "Väliaikatarjoilut",
-   "date": "2027-06-10",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/tarjoilut.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/tarjoilut.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Väliaikatarjoilut"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/tarjoilut.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-10::ymp-rist-suunnitelma",
-   "house": "ilmajoki",
-   "title": "Ympäristösuunnitelma",
-   "date": "2027-06-10",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/ymparistosuunnitelma.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/ymparistosuunnitelma.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Ympäristösuunnitelma"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/ymparistosuunnitelma.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-10::info",
-   "house": "ilmajoki",
-   "title": "info",
-   "date": "2027-06-10",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/info.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/info.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "info"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/info.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-10::kes-n-2025-muut-tapahtumat",
-   "house": "ilmajoki",
-   "title": "kesän 2025 muut tapahtumat",
-   "date": "2027-06-10",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/muut_tapahtumat.html",
-   "ticketUrl": "https://www.lippu.fi/artist/pauli-hanhiniemi/pauli-hanhiniemi-vaasan-kaupunginorkesteri-sydaen-vasta-puolillaan-4279031/",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "kesän 2025 muut tapahtumat"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/muut_tapahtumat.html"
    }
   },
   {
@@ -31829,26 +31284,6 @@
    }
   },
   {
-   "id": "ilmajoki:2027-06-11::ohjelmisto",
-   "house": "ilmajoki",
-   "title": "Ohjelmisto",
-   "date": "2027-06-11",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/ohjelmisto.html",
-   "ticketUrl": "https://events.liveto.io/organizers/ilmajoen-musiikkijuhlat",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Ohjelmisto"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/ohjelmisto.html"
-   }
-  },
-  {
    "id": "ilmajoki:2027-06-12:1300:s-r-ill",
    "house": "ilmajoki",
    "title": "Säröillä",
@@ -31917,46 +31352,6 @@
    }
   },
   {
-   "id": "ilmajoki:2027-06-12::ajankohtaista",
-   "house": "ilmajoki",
-   "title": "Ajankohtaista",
-   "date": "2027-06-12",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/ajankohtaista-253848.html",
-   "ticketUrl": "https://events.liveto.io/organizers/ilmajoen-musiikkijuhlat",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Ajankohtaista"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/ajankohtaista-253848.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-12::hallitus",
-   "house": "ilmajoki",
-   "title": "Hallitus",
-   "date": "2027-06-12",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/hallitus.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/hallitus.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Hallitus"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/hallitus.html"
-   }
-  },
-  {
    "id": "ilmajoki:2027-06-12::hurma-ilmajoen-musiikkijuhlilla-10-6-202",
    "house": "ilmajoki",
    "title": "Hurma Ilmajoen Musiikkijuhlilla 10.6.2027",
@@ -31974,26 +31369,6 @@
    },
    "urls": {
     "fi": "https://www.musiikkijuhlat.fi/hurma.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-12::ilmajoen-musiikkijuhlat-ry",
-   "house": "ilmajoki",
-   "title": "Ilmajoen Musiikkijuhlat ry",
-   "date": "2027-06-12",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/yhdistys.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/yhdistys.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Ilmajoen Musiikkijuhlat ry"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/yhdistys.html"
    }
   },
   {
@@ -32017,226 +31392,6 @@
    }
   },
   {
-   "id": "ilmajoki:2027-06-12::katsomo-ja-alue",
-   "house": "ilmajoki",
-   "title": "Katsomo ja alue",
-   "date": "2027-06-12",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/katsomo.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/katsomo.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Katsomo ja alue"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/katsomo.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-12::lippuinfo",
-   "house": "ilmajoki",
-   "title": "Lippuinfo",
-   "date": "2027-06-12",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/lippuinfo.html",
-   "ticketUrl": "https://events.liveto.io/organizers/ilmajoen-musiikkijuhlat",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Lippuinfo"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/lippuinfo.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-12::l-hialueen-ruokailupaikat",
-   "house": "ilmajoki",
-   "title": "Lähialueen ruokailupaikat",
-   "date": "2027-06-12",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/ruokailu-lahialueella.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/ruokailu-lahialueella.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Lähialueen ruokailupaikat"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/ruokailu-lahialueella.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-12::l-hialueen-vierailukohteet",
-   "house": "ilmajoki",
-   "title": "Lähialueen vierailukohteet",
-   "date": "2027-06-12",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/lahialueen-vierailukohteet.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/lahialueen-vierailukohteet.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Lähialueen vierailukohteet"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/lahialueen-vierailukohteet.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-12::majoitus",
-   "house": "ilmajoki",
-   "title": "Majoitus",
-   "date": "2027-06-12",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/majoitus.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/majoitus.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Majoitus"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/majoitus.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-12::media",
-   "house": "ilmajoki",
-   "title": "Media",
-   "date": "2027-06-12",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/media.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/media.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Media"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/media.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-12::ohjelmisto",
-   "house": "ilmajoki",
-   "title": "Ohjelmisto",
-   "date": "2027-06-12",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/ohjelmisto.html",
-   "ticketUrl": "https://events.liveto.io/organizers/ilmajoen-musiikkijuhlat",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Ohjelmisto"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/ohjelmisto.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-12::pieninvestointihanke",
-   "house": "ilmajoki",
-   "title": "PIENINVESTOINTIHANKE",
-   "date": "2027-06-12",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/pieninvestointihanke.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/pieninvestointihanke.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "PIENINVESTOINTIHANKE"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/pieninvestointihanke.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-12::ryhm-t",
-   "house": "ilmajoki",
-   "title": "Ryhmät",
-   "date": "2027-06-12",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/ryhmamatka.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/ryhmamatka.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Ryhmät"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/ryhmamatka.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-12::saapuminen",
-   "house": "ilmajoki",
-   "title": "Saapuminen",
-   "date": "2027-06-12",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/saapuminen.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/saapuminen.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Saapuminen"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/saapuminen.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-12::turvallisuus-ja-yhdenvertaisuus",
-   "house": "ilmajoki",
-   "title": "Turvallisuus ja yhdenvertaisuus",
-   "date": "2027-06-12",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/turvallisuus-ja-yhdenvertaisuus.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/turvallisuus-ja-yhdenvertaisuus.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Turvallisuus ja yhdenvertaisuus"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/turvallisuus-ja-yhdenvertaisuus.html"
-   }
-  },
-  {
    "id": "ilmajoki:2027-06-12::unohtumattomat",
    "house": "ilmajoki",
    "title": "Unohtumattomat",
@@ -32254,146 +31409,6 @@
    },
    "urls": {
     "fi": "https://www.musiikkijuhlat.fi/unohtumattomat_aarnepelkonen_johannaiivanainen.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-12::verkkokauppa",
-   "house": "ilmajoki",
-   "title": "Verkkokauppa",
-   "date": "2027-06-12",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/musiikkijuhlatverkkokauppa.html",
-   "ticketUrl": "https://events.liveto.io/organizers/ilmajoen-musiikkijuhlat",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Verkkokauppa"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/musiikkijuhlatverkkokauppa.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-12::visit-ilmajoki",
-   "house": "ilmajoki",
-   "title": "Visit Ilmajoki",
-   "date": "2027-06-12",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/visit-ilmajoki.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/visit-ilmajoki.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Visit Ilmajoki"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/visit-ilmajoki.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-12::vuokraustoiminta",
-   "house": "ilmajoki",
-   "title": "Vuokraustoiminta",
-   "date": "2027-06-12",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/vuokraustoiminta.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/vuokraustoiminta.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Vuokraustoiminta"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/vuokraustoiminta.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-12::v-liaikatarjoilut",
-   "house": "ilmajoki",
-   "title": "Väliaikatarjoilut",
-   "date": "2027-06-12",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/tarjoilut.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/tarjoilut.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Väliaikatarjoilut"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/tarjoilut.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-12::ymp-rist-suunnitelma",
-   "house": "ilmajoki",
-   "title": "Ympäristösuunnitelma",
-   "date": "2027-06-12",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/ymparistosuunnitelma.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/ymparistosuunnitelma.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Ympäristösuunnitelma"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/ymparistosuunnitelma.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-12::info",
-   "house": "ilmajoki",
-   "title": "info",
-   "date": "2027-06-12",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/info.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/info.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "info"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/info.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-12::kes-n-2025-muut-tapahtumat",
-   "house": "ilmajoki",
-   "title": "kesän 2025 muut tapahtumat",
-   "date": "2027-06-12",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/muut_tapahtumat.html",
-   "ticketUrl": "https://www.lippu.fi/artist/pauli-hanhiniemi/pauli-hanhiniemi-vaasan-kaupunginorkesteri-sydaen-vasta-puolillaan-4279031/",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "kesän 2025 muut tapahtumat"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/muut_tapahtumat.html"
    }
   },
   {
@@ -32462,46 +31477,6 @@
    "urls": {
     "sv": "https://www.operan.se/forestallningar/mahler-med-hovkapellet",
     "en": "https://www.operan.se/en/productions/mahler-with-the-royal-orchestra"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-13::ajankohtaista",
-   "house": "ilmajoki",
-   "title": "Ajankohtaista",
-   "date": "2027-06-13",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/ajankohtaista-253848.html",
-   "ticketUrl": "https://events.liveto.io/organizers/ilmajoen-musiikkijuhlat",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Ajankohtaista"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/ajankohtaista-253848.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-13::ohjelmisto",
-   "house": "ilmajoki",
-   "title": "Ohjelmisto",
-   "date": "2027-06-13",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/ohjelmisto.html",
-   "ticketUrl": "https://events.liveto.io/organizers/ilmajoen-musiikkijuhlat",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Ohjelmisto"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/ohjelmisto.html"
    }
   },
   {
@@ -32591,26 +31566,6 @@
    }
   },
   {
-   "id": "ilmajoki:2027-06-17::ohjelmisto",
-   "house": "ilmajoki",
-   "title": "Ohjelmisto",
-   "date": "2027-06-17",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/ohjelmisto.html",
-   "ticketUrl": "https://events.liveto.io/organizers/ilmajoen-musiikkijuhlat",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Ohjelmisto"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/ohjelmisto.html"
-   }
-  },
-  {
    "id": "ilmajoki:2027-06-18:1300:s-r-ill",
    "house": "ilmajoki",
    "title": "Säröillä",
@@ -32650,26 +31605,6 @@
    "urls": {
     "sv": "https://www.operan.se/forestallningar/playlist",
     "en": "https://www.operan.se/en/productions/playlist"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-18::ohjelmisto",
-   "house": "ilmajoki",
-   "title": "Ohjelmisto",
-   "date": "2027-06-18",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/ohjelmisto.html",
-   "ticketUrl": "https://events.liveto.io/organizers/ilmajoen-musiikkijuhlat",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Ohjelmisto"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/ohjelmisto.html"
    }
   },
   {
@@ -32735,46 +31670,6 @@
    }
   },
   {
-   "id": "ilmajoki:2027-06-19::ajankohtaista",
-   "house": "ilmajoki",
-   "title": "Ajankohtaista",
-   "date": "2027-06-19",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/ajankohtaista-253848.html",
-   "ticketUrl": "https://events.liveto.io/organizers/ilmajoen-musiikkijuhlat",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Ajankohtaista"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/ajankohtaista-253848.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-19::hallitus",
-   "house": "ilmajoki",
-   "title": "Hallitus",
-   "date": "2027-06-19",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/hallitus.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/hallitus.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Hallitus"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/hallitus.html"
-   }
-  },
-  {
    "id": "ilmajoki:2027-06-19::hurma-ilmajoen-musiikkijuhlilla-10-6-202",
    "house": "ilmajoki",
    "title": "Hurma Ilmajoen Musiikkijuhlilla 10.6.2027",
@@ -32792,26 +31687,6 @@
    },
    "urls": {
     "fi": "https://www.musiikkijuhlat.fi/hurma.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-19::ilmajoen-musiikkijuhlat-ry",
-   "house": "ilmajoki",
-   "title": "Ilmajoen Musiikkijuhlat ry",
-   "date": "2027-06-19",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/yhdistys.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/yhdistys.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Ilmajoen Musiikkijuhlat ry"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/yhdistys.html"
    }
   },
   {
@@ -32835,366 +31710,6 @@
    }
   },
   {
-   "id": "ilmajoki:2027-06-19::katsomo-ja-alue",
-   "house": "ilmajoki",
-   "title": "Katsomo ja alue",
-   "date": "2027-06-19",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/katsomo.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/katsomo.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Katsomo ja alue"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/katsomo.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-19::lippuinfo",
-   "house": "ilmajoki",
-   "title": "Lippuinfo",
-   "date": "2027-06-19",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/lippuinfo.html",
-   "ticketUrl": "https://events.liveto.io/organizers/ilmajoen-musiikkijuhlat",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Lippuinfo"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/lippuinfo.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-19::l-hialueen-ruokailupaikat",
-   "house": "ilmajoki",
-   "title": "Lähialueen ruokailupaikat",
-   "date": "2027-06-19",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/ruokailu-lahialueella.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/ruokailu-lahialueella.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Lähialueen ruokailupaikat"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/ruokailu-lahialueella.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-19::l-hialueen-vierailukohteet",
-   "house": "ilmajoki",
-   "title": "Lähialueen vierailukohteet",
-   "date": "2027-06-19",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/lahialueen-vierailukohteet.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/lahialueen-vierailukohteet.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Lähialueen vierailukohteet"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/lahialueen-vierailukohteet.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-19::majoitus",
-   "house": "ilmajoki",
-   "title": "Majoitus",
-   "date": "2027-06-19",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/majoitus.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/majoitus.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Majoitus"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/majoitus.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-19::media",
-   "house": "ilmajoki",
-   "title": "Media",
-   "date": "2027-06-19",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/media.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/media.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Media"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/media.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-19::ohjelmisto",
-   "house": "ilmajoki",
-   "title": "Ohjelmisto",
-   "date": "2027-06-19",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/ohjelmisto.html",
-   "ticketUrl": "https://events.liveto.io/organizers/ilmajoen-musiikkijuhlat",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Ohjelmisto"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/ohjelmisto.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-19::pieninvestointihanke",
-   "house": "ilmajoki",
-   "title": "PIENINVESTOINTIHANKE",
-   "date": "2027-06-19",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/pieninvestointihanke.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/pieninvestointihanke.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "PIENINVESTOINTIHANKE"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/pieninvestointihanke.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-19::ryhm-t",
-   "house": "ilmajoki",
-   "title": "Ryhmät",
-   "date": "2027-06-19",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/ryhmamatka.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/ryhmamatka.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Ryhmät"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/ryhmamatka.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-19::saapuminen",
-   "house": "ilmajoki",
-   "title": "Saapuminen",
-   "date": "2027-06-19",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/saapuminen.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/saapuminen.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Saapuminen"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/saapuminen.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-19::turvallisuus-ja-yhdenvertaisuus",
-   "house": "ilmajoki",
-   "title": "Turvallisuus ja yhdenvertaisuus",
-   "date": "2027-06-19",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/turvallisuus-ja-yhdenvertaisuus.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/turvallisuus-ja-yhdenvertaisuus.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Turvallisuus ja yhdenvertaisuus"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/turvallisuus-ja-yhdenvertaisuus.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-19::verkkokauppa",
-   "house": "ilmajoki",
-   "title": "Verkkokauppa",
-   "date": "2027-06-19",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/musiikkijuhlatverkkokauppa.html",
-   "ticketUrl": "https://events.liveto.io/organizers/ilmajoen-musiikkijuhlat",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Verkkokauppa"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/musiikkijuhlatverkkokauppa.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-19::visit-ilmajoki",
-   "house": "ilmajoki",
-   "title": "Visit Ilmajoki",
-   "date": "2027-06-19",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/visit-ilmajoki.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/visit-ilmajoki.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Visit Ilmajoki"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/visit-ilmajoki.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-19::vuokraustoiminta",
-   "house": "ilmajoki",
-   "title": "Vuokraustoiminta",
-   "date": "2027-06-19",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/vuokraustoiminta.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/vuokraustoiminta.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Vuokraustoiminta"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/vuokraustoiminta.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-19::v-liaikatarjoilut",
-   "house": "ilmajoki",
-   "title": "Väliaikatarjoilut",
-   "date": "2027-06-19",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/tarjoilut.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/tarjoilut.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Väliaikatarjoilut"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/tarjoilut.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-19::ymp-rist-suunnitelma",
-   "house": "ilmajoki",
-   "title": "Ympäristösuunnitelma",
-   "date": "2027-06-19",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/ymparistosuunnitelma.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/ymparistosuunnitelma.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Ympäristösuunnitelma"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/ymparistosuunnitelma.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-19::info",
-   "house": "ilmajoki",
-   "title": "info",
-   "date": "2027-06-19",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/info.html",
-   "ticketUrl": "https://www.musiikkijuhlat.fi/info.html",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "info"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/info.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-19::kes-n-2025-muut-tapahtumat",
-   "house": "ilmajoki",
-   "title": "kesän 2025 muut tapahtumat",
-   "date": "2027-06-19",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/muut_tapahtumat.html",
-   "ticketUrl": "https://www.lippu.fi/artist/pauli-hanhiniemi/pauli-hanhiniemi-vaasan-kaupunginorkesteri-sydaen-vasta-puolillaan-4279031/",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "kesän 2025 muut tapahtumat"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/muut_tapahtumat.html"
-   }
-  },
-  {
    "id": "ilmajoki:2027-06-20:1300:s-r-ill",
    "house": "ilmajoki",
    "title": "Säröillä",
@@ -33212,46 +31727,6 @@
    },
    "urls": {
     "fi": "https://www.musiikkijuhlat.fi/saroilla.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-20::ajankohtaista",
-   "house": "ilmajoki",
-   "title": "Ajankohtaista",
-   "date": "2027-06-20",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/ajankohtaista-253848.html",
-   "ticketUrl": "https://events.liveto.io/organizers/ilmajoen-musiikkijuhlat",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Ajankohtaista"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/ajankohtaista-253848.html"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-06-20::ohjelmisto",
-   "house": "ilmajoki",
-   "title": "Ohjelmisto",
-   "date": "2027-06-20",
-   "time": "",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/ohjelmisto.html",
-   "ticketUrl": "https://events.liveto.io/organizers/ilmajoen-musiikkijuhlat",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Ohjelmisto"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/ohjelmisto.html"
    }
   },
   {
@@ -34303,26 +32778,6 @@
    }
   },
   {
-   "id": "ilmajoki:2027-08-20:1900:kes-n-2025-muut-tapahtumat",
-   "house": "ilmajoki",
-   "title": "kesän 2025 muut tapahtumat",
-   "date": "2027-08-20",
-   "time": "19:00",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/muut_tapahtumat.html",
-   "ticketUrl": "https://www.lippu.fi/artist/pauli-hanhiniemi/pauli-hanhiniemi-vaasan-kaupunginorkesteri-sydaen-vasta-puolillaan-4279031/",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "kesän 2025 muut tapahtumat"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/muut_tapahtumat.html"
-   }
-  },
-  {
    "id": "opera-pa-skaret:2027-08-20:1900:operapub",
    "house": "opera-pa-skaret",
    "title": "Operapub",
@@ -34511,7 +32966,7 @@
    "genre": "Opera",
    "venue": "Folkoperan",
    "city": "Stockholm",
-   "url": "https://folkoperan.se/kop-biljetter/",
+   "url": "https://folkoperan.se/uppsattningar/falstaff/",
    "ticketUrl": "https://biljetter.folkoperan.se/sv/buyingflow/tickets/33950/137499/",
    "status": "",
    "note": "premiere"
@@ -34525,7 +32980,7 @@
    "genre": "Opera",
    "venue": "Folkoperan",
    "city": "Stockholm",
-   "url": "https://folkoperan.se/kop-biljetter/",
+   "url": "https://folkoperan.se/uppsattningar/falstaff/",
    "ticketUrl": "https://biljetter.folkoperan.se/sv/buyingflow/tickets/33950/137502/",
    "status": "",
    "note": "premiere"
@@ -34539,7 +32994,7 @@
    "genre": "Opera",
    "venue": "Folkoperan",
    "city": "Stockholm",
-   "url": "https://folkoperan.se/kop-biljetter/",
+   "url": "https://folkoperan.se/uppsattningar/falstaff/",
    "ticketUrl": "https://biljetter.folkoperan.se/sv/buyingflow/tickets/33950/137503/",
    "status": "",
    "note": ""
@@ -35658,26 +34113,6 @@
    "venues": {
     "da": "Gamle Scene",
     "en": "Old Stage"
-   }
-  },
-  {
-   "id": "ilmajoki:2027-11-23:0001:ajankohtaista",
-   "house": "ilmajoki",
-   "title": "Ajankohtaista",
-   "date": "2027-11-23",
-   "time": "00:01",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Ilmajoki",
-   "url": "https://www.musiikkijuhlat.fi/ajankohtaista-253848.html",
-   "ticketUrl": "https://events.liveto.io/organizers/ilmajoen-musiikkijuhlat",
-   "status": "",
-   "note": "",
-   "titles": {
-    "fi": "Ajankohtaista"
-   },
-   "urls": {
-    "fi": "https://www.musiikkijuhlat.fi/ajankohtaista-253848.html"
    }
   },
   {
