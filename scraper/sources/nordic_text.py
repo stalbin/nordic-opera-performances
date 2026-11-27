@@ -93,10 +93,10 @@ TEXT_SOURCES = {
                        city="Savonlinna", venue="Olavinlinna", genre="Opera"),
     "tampereen-ooppera": dict(index=["https://www.tampere-talo.fi/tampereenooppera/"], link=r"tampere-talo\.fi/tapahtuma/[^/]+/?$",
                               city="Tampere", venue="Tampere-talo", genre="Opera", card_dates=True),
-    "vaasan-ooppera": dict(index=["https://www.vaasanooppera.fi/"], link=r"vaasanooppera\.fi/[^#?]+$",
-                           city="Vasa", venue="", genre="Opera", require=r"ooppera|opera"),
     "ilmajoki": dict(index=["https://www.musiikkijuhlat.fi/"], link=r"musiikkijuhlat\.fi/[a-z0-9_-]+\.html$",
-                     city="Ilmajoki", venue="", genre="", exclude=r"varaa-liput|yhteystiedot|historia|liput"),
+                     city="Ilmajoki", venue="", genre="", exclude=r"/(varaa-liput|liput|lippuinfo|verkkokauppa|musiikkijuhlatverkkokauppa|ohjelmisto|muut_tapahtumat|info|saapuminen|katsomo"
+                     r"|pieninvestointi|ryhmamatka|tarjoilut|ruokailu|majoitus|lahialueen|visit-|vuokraus|turvallisuus|ymparisto"
+                     r"|yhteystiedot|hallitus|yhdistys|ajankohtaista|historia|media)[^/]*\.html$"),
     "helsingin-oopperakesa": dict(index=["https://www.oopperakesa.fi/"], link=r"oopperakesa\.fi/oopperakesa-\d{4}/[^/?#]+$",
                                   city="Helsingfors", venue="Aleksanterin teatteri", genre="Opera"),
     "oulun-ooppera": dict(index=["https://oulusinfonia.fi/konsertit/"], link=r"oulusinfonia\.fi/(?:en/)?konsertit/[^/]+/?$",

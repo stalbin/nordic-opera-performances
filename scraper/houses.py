@@ -33,7 +33,6 @@ HOUSES += [
     # Finland
     {"id": "suomen-kansallisooppera", "name": "Finlands nationalopera och -balett", "city": "Helsingfors", "country": "FI", "web": "https://oopperabaletti.fi", "season": "året runt"},
     {"id": "tampereen-ooppera", "name": "Tampereen Ooppera", "city": "Tammerfors", "country": "FI", "web": "https://www.tampere-talo.fi/tampereenooppera/", "season": "distrikt"},
-    {"id": "vaasan-ooppera", "name": "Vaasan Ooppera", "city": "Vasa", "country": "FI", "web": "https://www.vaasanooppera.fi", "season": "distrikt"},
     {"id": "oulun-ooppera", "name": "Opera i Uleåborg (Oulu Sinfonia)", "city": "Uleåborg", "country": "FI", "web": "https://oulusinfonia.fi", "season": "distrikt"},
     {"id": "savonlinna", "name": "Savonlinna Opera Festival", "city": "Nyslott", "country": "FI", "web": "https://operafestival.fi", "season": "sommar"},
     {"id": "ilmajoki", "name": "Ilmajoki Music Festival", "city": "Ilmajoki", "country": "FI", "web": "https://www.musiikkijuhlat.fi", "season": "sommar"},
