@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-11-27T18:28:31+01:00",
+ "generated": "2026-11-28T12:45:48+01:00",
  "houses": [
   {
    "id": "kungliga-operan",
@@ -9,7 +9,7 @@
    "country": "SE",
    "web": "https://www.operan.se",
    "season": "året runt",
-   "count": 137,
+   "count": 130,
    "status": "ok",
    "error": ""
   },
@@ -31,7 +31,7 @@
    "country": "SE",
    "web": "https://www.malmoopera.se",
    "season": "året runt",
-   "count": 249,
+   "count": 248,
    "status": "ok",
    "error": ""
   },
@@ -42,7 +42,7 @@
    "country": "SE",
    "web": "https://norrlandsoperan.se",
    "season": "året runt",
-   "count": 70,
+   "count": 67,
    "status": "ok",
    "error": ""
   },
@@ -64,7 +64,7 @@
    "country": "SE",
    "web": "https://www.wermlandopera.com",
    "season": "året runt",
-   "count": 76,
+   "count": 74,
    "status": "ok",
    "error": ""
   },
@@ -119,7 +119,7 @@
    "country": "DK",
    "web": "https://www.kglteater.dk",
    "season": "året runt",
-   "count": 325,
+   "count": 320,
    "status": "ok",
    "error": ""
   },
@@ -163,7 +163,7 @@
    "country": "DK",
    "web": "https://www.jyske-opera.dk",
    "season": "året runt",
-   "count": 42,
+   "count": 41,
    "status": "ok",
    "error": ""
   },
@@ -262,7 +262,7 @@
    "country": "FI",
    "web": "https://oopperabaletti.fi",
    "season": "året runt",
-   "count": 221,
+   "count": 220,
    "status": "ok",
    "error": ""
   },
@@ -355,319 +355,6 @@
  ],
  "performances": [
   {
-   "id": "norrlandsoperan:25013",
-   "house": "norrlandsoperan",
-   "title": "Skolföreställning: Sömnjägarna",
-   "date": "2026-11-27",
-   "time": "09:30",
-   "genre": "Övrigt",
-   "venue": "Robertsfors",
-   "city": "Umeå",
-   "url": "https://norrlandsoperan.se/forestallningar/skolforestallning-somnjagarna/",
-   "ticketUrl": "",
-   "status": "",
-   "note": "",
-   "titles": {
-    "sv": "Skolföreställning: Sömnjägarna"
-   },
-   "urls": {
-    "sv": "https://norrlandsoperan.se/forestallningar/skolforestallning-somnjagarna/"
-   }
-  },
-  {
-   "id": "norrlandsoperan:25014",
-   "house": "norrlandsoperan",
-   "title": "Skolföreställning: Sömnjägarna",
-   "date": "2026-11-27",
-   "time": "10:45",
-   "genre": "Övrigt",
-   "venue": "Robertsfors",
-   "city": "Umeå",
-   "url": "https://norrlandsoperan.se/forestallningar/skolforestallning-somnjagarna/",
-   "ticketUrl": "",
-   "status": "",
-   "note": "",
-   "titles": {
-    "sv": "Skolföreställning: Sömnjägarna"
-   },
-   "urls": {
-    "sv": "https://norrlandsoperan.se/forestallningar/skolforestallning-somnjagarna/"
-   }
-  },
-  {
-   "id": "kungliga-operan:10281",
-   "house": "kungliga-operan",
-   "title": "Introduktioner & samtal",
-   "date": "2026-11-27",
-   "time": "18:15",
-   "genre": "Övrigt",
-   "venue": "",
-   "city": "Stockholm",
-   "url": "https://www.operan.se/forestallningar/introduktioner-samtal",
-   "ticketUrl": "https://www.operan.se/forestallningar/introduktioner-samtal",
-   "status": "utsalt",
-   "note": "",
-   "titles": {
-    "sv": "Introduktioner & samtal",
-    "en": "Introductions & Talks"
-   },
-   "urls": {
-    "sv": "https://www.operan.se/forestallningar/introduktioner-samtal",
-    "en": "https://www.operan.se/en/productions/introductions-talks"
-   }
-  },
-  {
-   "id": "kgl-teater:87114:2026-11-2719:00",
-   "house": "kgl-teater",
-   "title": "Evita",
-   "date": "2026-11-27",
-   "time": "19:00",
-   "genre": "Musikal",
-   "venue": "Operaen",
-   "city": "København",
-   "url": "https://www.kglteater.dk/musical/2627/evita/",
-   "ticketUrl": "https://billet.kglteater.dk/da/buyingflow/tickets/30888/87114/",
-   "status": "fa-biljetter",
-   "note": "",
-   "titles": {
-    "da": "Evita",
-    "en": "Evita"
-   },
-   "urls": {
-    "da": "https://www.kglteater.dk/musical/2627/evita/",
-    "en": "https://www.kglteater.dk/en/musical/2627/evita/"
-   },
-   "venues": {
-    "da": "Operaen",
-    "en": "The Opera House"
-   }
-  },
-  {
-   "id": "kungliga-operan:9936",
-   "house": "kungliga-operan",
-   "title": "Tosca",
-   "date": "2026-11-27",
-   "time": "19:00",
-   "genre": "Opera",
-   "venue": "",
-   "city": "Stockholm",
-   "url": "https://www.operan.se/forestallningar/tosca",
-   "ticketUrl": "https://www.operan.se/forestallningar/tosca",
-   "status": "utsalt",
-   "note": "",
-   "titles": {
-    "sv": "Tosca",
-    "en": "Tosca"
-   },
-   "urls": {
-    "sv": "https://www.operan.se/forestallningar/tosca",
-    "en": "https://www.operan.se/en/productions/tosca"
-   }
-  },
-  {
-   "id": "malmo-opera:1584",
-   "house": "malmo-opera",
-   "title": "Dvořák, Barber, Copland",
-   "date": "2026-11-27",
-   "time": "19:00",
-   "genre": "Konsert",
-   "venue": "Malmö Opera",
-   "city": "Malmö",
-   "url": "https://www.malmoopera.se/forestallningar/dvorak-barber-copland",
-   "ticketUrl": "https://biljetter.malmoopera.se/events/29319/29326?lang=sv",
-   "status": "",
-   "note": ""
-  },
-  {
-   "id": "norrlandsoperan:19397",
-   "house": "norrlandsoperan",
-   "title": "Sommarnattens leende",
-   "date": "2026-11-27",
-   "time": "19:00",
-   "genre": "Musikal",
-   "venue": "Stora scenen",
-   "city": "Umeå",
-   "url": "https://norrlandsoperan.se/forestallningar/sommarnattens-leende/",
-   "ticketUrl": "https://biljett.norrlandsoperan.se/sv/buyingflow/tickets/29571/121699/",
-   "status": "",
-   "note": "",
-   "titles": {
-    "sv": "Sommarnattens leende",
-    "en": "A Little Night Music"
-   },
-   "urls": {
-    "sv": "https://norrlandsoperan.se/forestallningar/sommarnattens-leende/",
-    "en": "https://norrlandsoperan.se/en/programme/sommarnattens-leende/"
-   }
-  },
-  {
-   "id": "suomen-kansallisooppera:321398:2026-11-27 19:00",
-   "house": "suomen-kansallisooppera",
-   "title": "Figaron häät",
-   "date": "2026-11-27",
-   "time": "19:00",
-   "genre": "Opera",
-   "venue": "Päänäyttämö",
-   "city": "Helsingfors",
-   "url": "https://oopperabaletti.fi/ohjelmisto/figaron-haat/",
-   "ticketUrl": "https://oopperabaletti.fi/ohjelmisto/figaron-haat/",
-   "status": "utsalt",
-   "note": "",
-   "titles": {
-    "fi": "Figaron häät",
-    "sv": "Figaros bröllop",
-    "en": "Le nozze di Figaro"
-   },
-   "urls": {
-    "fi": "https://oopperabaletti.fi/ohjelmisto/figaron-haat/",
-    "sv": "https://oopperabaletti.fi/sv/repertoar/figaros-brollop/",
-    "en": "https://oopperabaletti.fi/en/repertoire/le-nozze-di-figaro/"
-   },
-   "venues": {
-    "fi": "Päänäyttämö",
-    "sv": "Huvudscenen",
-    "en": "Main Stage"
-   }
-  },
-  {
-   "id": "wermland-opera:2026-11-27:1900:en-d-ing-p-dr-msemester",
-   "house": "wermland-opera",
-   "title": "En döing på drömsemester",
-   "date": "2026-11-27",
-   "time": "19:00",
-   "genre": "Musikal",
-   "venue": "Stora Scenen",
-   "city": "Karlstad",
-   "url": "https://www.wermlandopera.com/evenemang/musikal/en-doing-pa-dromsemester/",
-   "ticketUrl": "https://secure.tickster.com/wx14by1yk8lc3ju",
-   "status": "",
-   "note": ""
-  },
-  {
-   "id": "wermland-opera:2026-11-27:1900:en-sagolik-jul",
-   "house": "wermland-opera",
-   "title": "En sagolik jul",
-   "date": "2026-11-27",
-   "time": "19:00",
-   "genre": "Övrigt",
-   "venue": "På turné",
-   "city": "",
-   "url": "https://www.wermlandopera.com/evenemang/turne/en-sagolik-jul/",
-   "ticketUrl": "",
-   "status": "",
-   "note": ""
-  },
-  {
-   "id": "jyske-opera:4564",
-   "house": "jyske-opera",
-   "title": "Carmen",
-   "date": "2026-11-27",
-   "time": "19:30",
-   "genre": "Opera",
-   "venue": "Musikhuset Aarhus",
-   "city": "Aarhus",
-   "url": "https://jyske-opera.dk/forestillinger/carmen/",
-   "ticketUrl": "https://billet.musikhuset.dk/da/buyingflow/tickets/30422/",
-   "status": "",
-   "note": ""
-  },
-  {
-   "id": "kgl-teater:86999:2026-11-2719:30",
-   "house": "kgl-teater",
-   "title": "George Balanchines Nøddeknækkeren",
-   "date": "2026-11-27",
-   "time": "19:30",
-   "genre": "Balett/dans",
-   "venue": "Gamle Scene",
-   "city": "København",
-   "url": "https://www.kglteater.dk/ballet/2627/george-balanchines-noeddeknaekkeren/",
-   "ticketUrl": "https://billet.kglteater.dk/da/buyingflow/tickets/30881/86999/",
-   "status": "fa-biljetter",
-   "note": "",
-   "titles": {
-    "da": "George Balanchines Nøddeknækkeren",
-    "en": "George Balanchines The Nutcracker"
-   },
-   "urls": {
-    "da": "https://www.kglteater.dk/ballet/2627/george-balanchines-noeddeknaekkeren/",
-    "en": "https://www.kglteater.dk/en/ballet/2627/george-balanchines-the-nutcracker/"
-   },
-   "venues": {
-    "da": "Gamle Scene",
-    "en": "Old Stage"
-   }
-  },
-  {
-   "id": "kgl-teater:115601:2026-11-2810:00",
-   "house": "kgl-teater",
-   "title": "JOSEPH_KIDS",
-   "date": "2026-11-28",
-   "time": "10:00",
-   "genre": "Balett/dans",
-   "venue": "Operaen",
-   "city": "København",
-   "url": "https://www.kglteater.dk/dans/2627/joseph_kids/",
-   "ticketUrl": "https://teaterbilletter.dk/forestillinger/josephkids-148361",
-   "status": "",
-   "note": "",
-   "titles": {
-    "da": "JOSEPH_KIDS",
-    "en": "JOSEPH_KIDS"
-   },
-   "urls": {
-    "da": "https://www.kglteater.dk/dans/2627/joseph_kids/",
-    "en": "https://www.kglteater.dk/en/dance/2627/joseph_kids/"
-   },
-   "venues": {
-    "da": "Operaen",
-    "en": "The Opera House"
-   }
-  },
-  {
-   "id": "kungliga-operan:10455",
-   "house": "kungliga-operan",
-   "title": "Sista helgen i Operahuset",
-   "date": "2026-11-28",
-   "time": "10:00",
-   "genre": "Övrigt",
-   "venue": "",
-   "city": "Stockholm",
-   "url": "https://www.operan.se/forestallningar/sista-helgen-i-operahuset",
-   "ticketUrl": "https://www.operan.se/forestallningar/sista-helgen-i-operahuset",
-   "status": "utsalt",
-   "note": "",
-   "titles": {
-    "sv": "Sista helgen i Operahuset",
-    "en": "Final Weekend in the Opera House"
-   },
-   "urls": {
-    "sv": "https://www.operan.se/forestallningar/sista-helgen-i-operahuset",
-    "en": "https://www.operan.se/en/productions/final-weekend-in-the-opera-house"
-   }
-  },
-  {
-   "id": "kungliga-operan:10456",
-   "house": "kungliga-operan",
-   "title": "Sista helgen i Operahuset",
-   "date": "2026-11-28",
-   "time": "11:00",
-   "genre": "Övrigt",
-   "venue": "",
-   "city": "Stockholm",
-   "url": "https://www.operan.se/forestallningar/sista-helgen-i-operahuset",
-   "ticketUrl": "https://www.operan.se/forestallningar/sista-helgen-i-operahuset",
-   "status": "utsalt",
-   "note": "",
-   "titles": {
-    "sv": "Sista helgen i Operahuset",
-    "en": "Final Weekend in the Opera House"
-   },
-   "urls": {
-    "sv": "https://www.operan.se/forestallningar/sista-helgen-i-operahuset",
-    "en": "https://www.operan.se/en/productions/final-weekend-in-the-opera-house"
-   }
-  },
-  {
    "id": "suomen-kansallisooppera:321551:2026-11-28 11:00",
    "house": "suomen-kansallisooppera",
    "title": "Taikatuokio",
@@ -677,8 +364,8 @@
    "venue": "Alminsalin lämpiö",
    "city": "Helsingfors",
    "url": "https://oopperabaletti.fi/ohjelmisto/taikatuokio/",
-   "ticketUrl": "https://shop.oopperabaletti.fi/fi/select-your-own-seat/258417/",
-   "status": "utsalt",
+   "ticketUrl": "https://oopperabaletti.fi/ohjelmisto/taikatuokio/",
+   "status": "",
    "note": "",
    "titles": {
     "fi": "Taikatuokio",
@@ -694,80 +381,6 @@
     "fi": "Alminsalin lämpiö",
     "sv": "Almisalens foajé",
     "en": "Almi Hall Foyer"
-   }
-  },
-  {
-   "id": "kgl-teater:87115:2026-11-2812:00",
-   "house": "kgl-teater",
-   "title": "Evita",
-   "date": "2026-11-28",
-   "time": "12:00",
-   "genre": "Musikal",
-   "venue": "Operaen",
-   "city": "København",
-   "url": "https://www.kglteater.dk/musical/2627/evita/",
-   "ticketUrl": "https://billet.kglteater.dk/da/buyingflow/tickets/30888/87115/",
-   "status": "fa-biljetter",
-   "note": "",
-   "titles": {
-    "da": "Evita",
-    "en": "Evita"
-   },
-   "urls": {
-    "da": "https://www.kglteater.dk/musical/2627/evita/",
-    "en": "https://www.kglteater.dk/en/musical/2627/evita/"
-   },
-   "venues": {
-    "da": "Operaen",
-    "en": "The Opera House"
-   }
-  },
-  {
-   "id": "kgl-teater:115602:2026-11-2812:00",
-   "house": "kgl-teater",
-   "title": "JOSEPH_KIDS",
-   "date": "2026-11-28",
-   "time": "12:00",
-   "genre": "Balett/dans",
-   "venue": "Operaen",
-   "city": "København",
-   "url": "https://www.kglteater.dk/dans/2627/joseph_kids/",
-   "ticketUrl": "https://teaterbilletter.dk/forestillinger/josephkids-148361",
-   "status": "",
-   "note": "",
-   "titles": {
-    "da": "JOSEPH_KIDS",
-    "en": "JOSEPH_KIDS"
-   },
-   "urls": {
-    "da": "https://www.kglteater.dk/dans/2627/joseph_kids/",
-    "en": "https://www.kglteater.dk/en/dance/2627/joseph_kids/"
-   },
-   "venues": {
-    "da": "Operaen",
-    "en": "The Opera House"
-   }
-  },
-  {
-   "id": "kungliga-operan:10457",
-   "house": "kungliga-operan",
-   "title": "Sista helgen i Operahuset",
-   "date": "2026-11-28",
-   "time": "12:00",
-   "genre": "Övrigt",
-   "venue": "",
-   "city": "Stockholm",
-   "url": "https://www.operan.se/forestallningar/sista-helgen-i-operahuset",
-   "ticketUrl": "https://www.operan.se/forestallningar/sista-helgen-i-operahuset",
-   "status": "utsalt",
-   "note": "",
-   "titles": {
-    "sv": "Sista helgen i Operahuset",
-    "en": "Final Weekend in the Opera House"
-   },
-   "urls": {
-    "sv": "https://www.operan.se/forestallningar/sista-helgen-i-operahuset",
-    "en": "https://www.operan.se/en/productions/final-weekend-in-the-opera-house"
    }
   },
   {
@@ -780,8 +393,8 @@
    "venue": "Alminsalin lämpiö",
    "city": "Helsingfors",
    "url": "https://oopperabaletti.fi/ohjelmisto/taikatuokio/",
-   "ticketUrl": "https://shop.oopperabaletti.fi/fi/select-your-own-seat/258418/",
-   "status": "utsalt",
+   "ticketUrl": "https://oopperabaletti.fi/ohjelmisto/taikatuokio/",
+   "status": "",
    "note": "",
    "titles": {
     "fi": "Taikatuokio",
@@ -797,50 +410,6 @@
     "fi": "Alminsalin lämpiö",
     "sv": "Almisalens foajé",
     "en": "Almi Hall Foyer"
-   }
-  },
-  {
-   "id": "kungliga-operan:10124",
-   "house": "kungliga-operan",
-   "title": "Guidad visning på svenska",
-   "date": "2026-11-28",
-   "time": "12:30",
-   "genre": "Övrigt",
-   "venue": "",
-   "city": "Stockholm",
-   "url": "https://www.operan.se/forestallningar/guidad-visning-pa-svenska",
-   "ticketUrl": "https://www.operan.se/forestallningar/guidad-visning-pa-svenska",
-   "status": "utsalt",
-   "note": "",
-   "titles": {
-    "sv": "Guidad visning på svenska",
-    "en": "Guided tour in Swedish"
-   },
-   "urls": {
-    "sv": "https://www.operan.se/forestallningar/guidad-visning-pa-svenska",
-    "en": "https://www.operan.se/en/productions/guided-tour-in-swedish"
-   }
-  },
-  {
-   "id": "kungliga-operan:10157",
-   "house": "kungliga-operan",
-   "title": "Guided tour in English",
-   "date": "2026-11-28",
-   "time": "12:30",
-   "genre": "Övrigt",
-   "venue": "",
-   "city": "Stockholm",
-   "url": "https://www.operan.se/forestallningar/guided-tour-in-english",
-   "ticketUrl": "https://www.operan.se/forestallningar/guided-tour-in-english",
-   "status": "utsalt",
-   "note": "",
-   "titles": {
-    "sv": "Guided tour in English",
-    "en": "Guided tour in English"
-   },
-   "urls": {
-    "sv": "https://www.operan.se/forestallningar/guided-tour-in-english",
-    "en": "https://www.operan.se/en/productions/guided-tour-in-english"
    }
   },
   {
@@ -923,8 +492,8 @@
    "venue": "Alminsalin lämpiö",
    "city": "Helsingfors",
    "url": "https://oopperabaletti.fi/ohjelmisto/taikatuokio/",
-   "ticketUrl": "https://shop.oopperabaletti.fi/fi/select-your-own-seat/258419/",
-   "status": "utsalt",
+   "ticketUrl": "https://oopperabaletti.fi/ohjelmisto/taikatuokio/",
+   "status": "",
    "note": "",
    "titles": {
     "fi": "Taikatuokio",
@@ -978,8 +547,8 @@
    "venue": "Alminsalin lämpiö",
    "city": "Helsingfors",
    "url": "https://oopperabaletti.fi/ohjelmisto/taikatuokio/",
-   "ticketUrl": "https://shop.oopperabaletti.fi/fi/select-your-own-seat/258420/",
-   "status": "utsalt",
+   "ticketUrl": "https://oopperabaletti.fi/ohjelmisto/taikatuokio/",
+   "status": "",
    "note": "",
    "titles": {
     "fi": "Taikatuokio",
@@ -1298,7 +867,7 @@
    "city": "Umeå",
    "url": "https://norrlandsoperan.se/forestallningar/sommarnattens-leende/",
    "ticketUrl": "https://biljett.norrlandsoperan.se/sv/buyingflow/tickets/29571/121700/",
-   "status": "",
+   "status": "utsalt",
    "note": "",
    "titles": {
     "sv": "Sommarnattens leende",
@@ -2246,7 +1815,7 @@
    "city": "Stockholm",
    "url": "https://www.operan.se/forestallningar/cosi-fan-tutte",
    "ticketUrl": "https://www.operan.se/forestallningar/cosi-fan-tutte",
-   "status": "",
+   "status": "utsalt",
    "note": "",
    "titles": {
     "sv": "Così fan tutte",
@@ -2377,7 +1946,7 @@
    "city": "Oslo",
    "url": "https://www.operaen.no/forestillinger/notteknekkeren-ballett/",
    "ticketUrl": "https://billett.operaen.no/nb/buyingflow/tickets/45790/93190/",
-   "status": "fa-biljetter",
+   "status": "utsalt",
    "note": "",
    "titles": {
     "nb": "Nøtteknekkeren",
@@ -4422,7 +3991,7 @@
    "city": "Oslo",
    "url": "https://www.operaen.no/forestillinger/obos-julegalla-konsert/",
    "ticketUrl": "https://billett.operaen.no/nb/buyingflow/tickets/48712/98022/",
-   "status": "fa-biljetter",
+   "status": "utsalt",
    "note": "",
    "titles": {
     "nb": "OBOS Julegalla"
@@ -5305,7 +4874,7 @@
    "city": "Helsingfors",
    "url": "https://oopperabaletti.fi/ohjelmisto/pahkinansarkija-ja-hiirikuningas/",
    "ticketUrl": "https://shop.oopperabaletti.fi/fi/select-your-own-seat/258380/",
-   "status": "utsalt",
+   "status": "fa-biljetter",
    "note": "",
    "titles": {
     "fi": "Pähkinänsärkijä ja Hiirikuningas",
@@ -6339,7 +5908,7 @@
    "city": "Umeå",
    "url": "https://norrlandsoperan.se/forestallningar/sommarnattens-leende/",
    "ticketUrl": "https://biljett.norrlandsoperan.se/sv/buyingflow/tickets/29571/121703/",
-   "status": "",
+   "status": "utsalt",
    "note": "",
    "titles": {
     "sv": "Sommarnattens leende",
@@ -7926,7 +7495,7 @@
    "city": "København",
    "url": "https://www.kglteater.dk/ballet/2627/george-balanchines-noeddeknaekkeren/",
    "ticketUrl": "https://billet.kglteater.dk/da/buyingflow/tickets/30881/87023/",
-   "status": "fa-biljetter",
+   "status": "utsalt",
    "note": "",
    "titles": {
     "da": "George Balanchines Nøddeknækkeren",
@@ -8087,7 +7656,7 @@
    "city": "København",
    "url": "https://www.kglteater.dk/ballet/2627/george-balanchines-noeddeknaekkeren/",
    "ticketUrl": "https://billet.kglteater.dk/da/buyingflow/tickets/30881/87024/",
-   "status": "fa-biljetter",
+   "status": "utsalt",
    "note": "",
    "titles": {
     "da": "George Balanchines Nøddeknækkeren",
@@ -10039,7 +9608,7 @@
    "city": "Oslo",
    "url": "https://www.operaen.no/forestillinger/dissimilis-du-og-jeg-og-livet-opera/",
    "ticketUrl": "https://billett.operaen.no/nb/buyingflow/tickets/45840/93371/",
-   "status": "fa-biljetter",
+   "status": "utsalt",
    "note": "",
    "titles": {
     "nb": "Dissimilis: Du og Jeg og Livet",
@@ -23687,7 +23256,7 @@
    "city": "København",
    "url": "https://www.kglteater.dk/opera/2627/light-bach-dances/",
    "ticketUrl": "https://billet.kglteater.dk/da/buyingflow/tickets/30876/86934/",
-   "status": "",
+   "status": "fa-biljetter",
    "note": "",
    "titles": {
     "da": "LIGHT - Bach dances",
@@ -28945,8 +28514,8 @@
    "venue": "Malmö Opera",
    "city": "Malmö",
    "url": "https://www.malmoopera.se/forestallningar/mitt-livs-berattelse",
-   "ticketUrl": "https://biljetter.malmoopera.se/events/29629/29643?lang=sv",
-   "status": "fa-biljetter",
+   "ticketUrl": "",
+   "status": "utsalt",
    "note": ""
   },
   {
@@ -29516,8 +29085,8 @@
    "venue": "Malmö Opera",
    "city": "Malmö",
    "url": "https://www.malmoopera.se/forestallningar/mitt-livs-berattelse",
-   "ticketUrl": "https://biljetter.malmoopera.se/events/29629/31175?lang=sv",
-   "status": "fa-biljetter",
+   "ticketUrl": "",
+   "status": "utsalt",
    "note": ""
   },
   {
@@ -30339,7 +29908,7 @@
    "city": "Malmö",
    "url": "https://www.malmoopera.se/forestallningar/scenkvall-pa-operagrillen-1",
    "ticketUrl": "https://biljetter.malmoopera.se/events/30384/30527?lang=sv",
-   "status": "",
+   "status": "fa-biljetter",
    "note": ""
   },
   {
